@@ -1,5 +1,8 @@
 # IUFEE spatial support audit: revision analysis code and derived results
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23243829.svg)](https://doi.org/10.5281/zenodo.23243829)
+
+
 Reproducibility package for the study **Spatial Support Assumptions in Urban Change Exposure:
 An Audit of 91 Indian Cities**. The study asks what is lost when a database stores separate
 class fractions for each grid cell but discards the locations at which those classes coincide.
@@ -49,3 +52,9 @@ India Urban Flood Exposure Evidence (IUFEE) v1.2, Zenodo, doi:10.5281/zenodo.219
 ## Licence
 
 Code: MIT (LICENSE). Derived data and documentation: CC BY 4.0 (LICENSE-DATA).
+
+## Citation
+
+Zeng, Z., Tian, Y., and Zhang, J. (2026). *IUFEE spatial support audit: revision analysis code and derived results* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23243829
+
+Concept DOI for all versions: https://doi.org/10.5281/zenodo.23243828
