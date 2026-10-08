@@ -1,0 +1,2735 @@
+{
+  "completed_utc": "2026-10-04T17:34:14.333599+00:00",
+  "all_passed": false,
+  "completed_cities": 91,
+  "script_sha256": "28E40C151C32267B74B5A755D31CD036F101A63041753CFB071FEBA66E3644A9",
+  "version": "joint_overlay_10m_nearest_lexicographic_first_valid_v2",
+  "runtime": {
+    "python": "3.12.10",
+    "rasterio": "1.5.1",
+    "gdal": "3.12.4",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5"
+  },
+  "city_checks": [
+    {
+      "unit_key": "IND_FUA_09258",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 3.166496753692627e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10496",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_07466",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.960464477539063e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10452",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.960464477539063e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07163",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09099",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09850",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.21540641784668e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09045",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.960464477539063e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_05991",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_07617",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_06611",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08848",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09562",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08722",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08900",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07320",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10313",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07839",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.960464477539063e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09282",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.21540641784668e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08952",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10017",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 3.166496753692627e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08674",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09157",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08997",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 1.862645149230957e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07957",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09069",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_08673",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_06781",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07643",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_06651",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 3.166496753692627e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08258",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.21540641784668e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10243",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09500",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10441",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 1.4901161193847656e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_06065",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09444",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09195",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10007",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07499",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10142",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_07961",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07933",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09368",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10285",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10168",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08224",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07895",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09007",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09782",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08497",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08144",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09620",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10432",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 9.313225746154785e-09,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09266",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_08319",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_05324",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09794",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09165",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 3.166496753692627e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10453",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 1.862645149230957e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07139",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08595",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08896",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_03722",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09544",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_04396",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09570",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_09013",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_02091",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07490",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 5.029141902923584e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09564",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08587",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_05617",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08675",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 1.1175870895385742e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07581",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10354",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_03357",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.0978193283081055e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10152",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07601",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 4.470348358154297e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_08341",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07108",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 3.166496753692627e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 5.960464477539063e-08
+    },
+    {
+      "unit_key": "IND_FUA_10533",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09129",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07631",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07881",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08433",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_10065",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08419",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_07996",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09710",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_09834",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.9802322387695312e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    },
+    {
+      "unit_key": "IND_FUA_08686",
+      "passed": true,
+      "aligned_grid_matches": true,
+      "coverage_complete": true,
+      "released_positive_g_matches": true,
+      "frechet_bound_max_violation": 2.7939677238464355e-08,
+      "allocation_recomputation_errors": {
+        "joint_overlay_surface_absolute_error_m2": 0.0,
+        "joint_overlay_numerator_absolute_error_m3": 0.0,
+        "joint_overlay_normalized_depth_absolute_error_m": 0.0,
+        "fine_product_surface_absolute_error_m2": 0.0,
+        "fine_product_numerator_absolute_error_m3": 0.0,
+        "fine_product_normalized_depth_absolute_error_m": 0.0,
+        "archived_product_surface_absolute_error_m2": 0.0,
+        "archived_product_numerator_absolute_error_m3": 0.0,
+        "archived_product_normalized_depth_absolute_error_m": 0.0
+      },
+      "independent_source_class_partition_max_error": 0.0
+    }
+  ],
+  "source_identity_stability_checks": [
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_70_22.tif",
+      "item_id": "WSF2019_v1_70_22",
+      "current_sha256": "2C41961FD3E31C51F9B14E24B7E98B8F5C61BCB211660FFBE3BD6D26845D35AF",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_72_18.tif",
+      "item_id": "WSF2019_v1_72_18",
+      "current_sha256": "C33F4A7CA6C6706B4DA54823DC7496551F9710A44DF825A87D53CD126E4F83C6",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_72_20.tif",
+      "item_id": "WSF2019_v1_72_20",
+      "current_sha256": "C824EED78AE53E65D2B92CDF692AE3833CBCBB218AD115C654AC1C8E80E4F39C",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_72_22.tif",
+      "item_id": "WSF2019_v1_72_22",
+      "current_sha256": "04B92EE75D1A3C7E3D8C6727E41038950288CC8D3F53EC4998E51C6E0D64A508",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_72_26.tif",
+      "item_id": "WSF2019_v1_72_26",
+      "current_sha256": "252F0A613844658A43F8B8975B79E675CCD5DEA4FB472244444E27853C99E1D4",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_10.tif",
+      "item_id": "WSF2019_v1_74_10",
+      "current_sha256": "9F8ED9B3015677B5BFB81C130C44A26C301BF71A198694896C347E0F33B36782",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_12.tif",
+      "item_id": "WSF2019_v1_74_12",
+      "current_sha256": "2337A8EB8628F681E9AC90C27CB93ABA19B33BE1611BFF8B2BFF68F651B847A2",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_16.tif",
+      "item_id": "WSF2019_v1_74_16",
+      "current_sha256": "6B808229E3B0322FBE4ED2D20BB9BFA8CDC0A60159700EDBB6ED08F5E00804DB",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_18.tif",
+      "item_id": "WSF2019_v1_74_18",
+      "current_sha256": "BD282B88F689F46E92F882334029E2D5ADEAD1B212E1FF18CDCD8533ECD92F6D",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_22.tif",
+      "item_id": "WSF2019_v1_74_22",
+      "current_sha256": "B8F57BD869E545335059FA56BD25D146B94A9B6427EFC67690342FCFEA537405",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_24.tif",
+      "item_id": "WSF2019_v1_74_24",
+      "current_sha256": "6956EB92DDA9E66C045CCB53E815928992B5D9246940AEADCD44461B3B8D2DD5",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_26.tif",
+      "item_id": "WSF2019_v1_74_26",
+      "current_sha256": "06DA5C981A27EB27E7896C8B65453599199A615050A1E82CD4BBA2B3E9917D6A",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_30.tif",
+      "item_id": "WSF2019_v1_74_30",
+      "current_sha256": "95CC5039DD9A0CC4DAF9E6C4E81F9530D5201127956D1E56D155E7FBDEE6BCD6",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_32.tif",
+      "item_id": "WSF2019_v1_74_32",
+      "current_sha256": "7DBD33E34A5A21349E16DE24A173A82F0A54DF298782A179F81151432A136225",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_74_34.tif",
+      "item_id": "WSF2019_v1_74_34",
+      "current_sha256": "D64D7255DEDFA0CE6A9331F1D41C2BCC6C0E50CAEBF0784F8B1677F4D7B85729",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_12.tif",
+      "item_id": "WSF2019_v1_76_12",
+      "current_sha256": "7B029361E55870EDC73885B38F957021BEBA0E8ABD4A601E0B6FE58AC8D9B058",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_16.tif",
+      "item_id": "WSF2019_v1_76_16",
+      "current_sha256": "827E02B34C1F8D25BD4948FA1B30DD17966F7A84E4F78061DC239FCD7DF414B9",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_22.tif",
+      "item_id": "WSF2019_v1_76_22",
+      "current_sha256": "09A06D7E39AF8B41A00AB3E8CB322AE5006F81F2E9DF6AD0C7170A754E241E31",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_26.tif",
+      "item_id": "WSF2019_v1_76_26",
+      "current_sha256": "29E04BE479396DC0E5B1EDBAA1D895FB7FAE34F9979752C746476EE2D96562E7",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_28.tif",
+      "item_id": "WSF2019_v1_76_28",
+      "current_sha256": "6AD1C8BAB0022DE79BFB534043D3B3009D3A12F767F756208BBBA714F889FF82",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_30.tif",
+      "item_id": "WSF2019_v1_76_30",
+      "current_sha256": "5216CC501D27CF22FA64803B195FEDAE444DFF42BC508A5E55E523FA66A5C51A",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_8.tif",
+      "item_id": "WSF2019_v1_76_8",
+      "current_sha256": "6AA78791347D5C78BAAF54E6126184CEEC3A321E76D5651410C61EEAD86AFD71",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_10.tif",
+      "item_id": "WSF2019_v1_78_10",
+      "current_sha256": "4BD4F8A5206C9B7C729C5379ADB8998A0D65D6C732C87F619A3F0AF9B458F69B",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_12.tif",
+      "item_id": "WSF2019_v1_78_12",
+      "current_sha256": "71FD78A55D78EDBAB6899A05EB4ACCB984B62AB629B376AF82BF9A23A62D2E78",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_16.tif",
+      "item_id": "WSF2019_v1_78_16",
+      "current_sha256": "9CBDCC796A8CFE95077FE276D8FFA38F2A2DDA033992D318E251FE2547DB6F57",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_20.tif",
+      "item_id": "WSF2019_v1_78_20",
+      "current_sha256": "504DBA487D9645A6E024B132BCFF8DFA3E1F855093E5EA926D8AE267B9574380",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_26.tif",
+      "item_id": "WSF2019_v1_78_26",
+      "current_sha256": "667F5E2DDE3E2C876AE350234561EA12FFBFCFED3CEEA0AF916FA03B72390D8A",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_30.tif",
+      "item_id": "WSF2019_v1_78_30",
+      "current_sha256": "0233BD0255819EB845ED1AB107B73F49D41477986D685C800316AAB735D4A944",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_8.tif",
+      "item_id": "WSF2019_v1_78_8",
+      "current_sha256": "4FBF0AE458A1DA0022B72B434705CBDA8BC83878AE5B592185E9C21C3C76B9F6",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_12.tif",
+      "item_id": "WSF2019_v1_80_12",
+      "current_sha256": "4544E33D1153E14377309F854EA14305BF3E37CB23C5D75ECA863BA7938E1D7C",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_16.tif",
+      "item_id": "WSF2019_v1_80_16",
+      "current_sha256": "75A599A936F73C1123F1A33E7D85C37A298012E2D966643000FE7DEE858AC799",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_20.tif",
+      "item_id": "WSF2019_v1_80_20",
+      "current_sha256": "94688C6220B98BCB3533889C7A32EAE716A621C0C95D75B6125ADC29414B99A3",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_22.tif",
+      "item_id": "WSF2019_v1_80_22",
+      "current_sha256": "40E31815939BF0FFF39B88C78733499F4E1BC7C29519AAE7A1F6095375ABC58A",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_24.tif",
+      "item_id": "WSF2019_v1_80_24",
+      "current_sha256": "7DDBD95837137756A2E475F7AB197998F1F18BD94F22C920E14F543871E4EFDE",
+      "sha256_matches_recorded_and_old_audit": false,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_26.tif",
+      "item_id": "WSF2019_v1_80_26",
+      "current_sha256": "9414475E5F953E8199A02D6417238D9EAF6A49CEC831CCEF0887F70BB4C82BFA",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_28.tif",
+      "item_id": "WSF2019_v1_80_28",
+      "current_sha256": "6F46719D24FD45D1248173F982EEF22F1FC352076F3DB086CA21D445DD9FF0F1",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_82_16.tif",
+      "item_id": "WSF2019_v1_82_16",
+      "current_sha256": "10D1C606BF828517AB56D76F97AB74025591D0D0D213001516FFD4614DC08671",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_82_20.tif",
+      "item_id": "WSF2019_v1_82_20",
+      "current_sha256": "564545579327C3BFA2025FE16BDB4AF3B24AF45063B7E95C64D021F03D75B353",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_82_22.tif",
+      "item_id": "WSF2019_v1_82_22",
+      "current_sha256": "5BB1559C08019B247076D00F0898D5F1103BC4C0865ABDB0A2009A87827C7226",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_82_24.tif",
+      "item_id": "WSF2019_v1_82_24",
+      "current_sha256": "206CE751E78ABD686A33DED0B7986294E759EF112C0CF616C08D561B9B01DD1F",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_82_26.tif",
+      "item_id": "WSF2019_v1_82_26",
+      "current_sha256": "E990C14AF031D97AC823BBEEA1188DEE32316DDE93139813D8097C00E069E6B0",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_84_20.tif",
+      "item_id": "WSF2019_v1_84_20",
+      "current_sha256": "6DE2394260412FE205953351861AEAC4BDD569B15B66CE121BBA8E3F4B891CD2",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_84_22.tif",
+      "item_id": "WSF2019_v1_84_22",
+      "current_sha256": "FC5E64817859FC390E7087A77684C4298D0BB282E5E0A54BFDF550F63D58FAC2",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_84_24.tif",
+      "item_id": "WSF2019_v1_84_24",
+      "current_sha256": "EBFF91CAD584ADDBA5FA1DD6AAB841CDD6396A29556CCC131112A1E9A5D12BA6",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_86_22.tif",
+      "item_id": "WSF2019_v1_86_22",
+      "current_sha256": "04AB90EB43E5FD17A947C996F803B67F44062055A4F2CE0093D36A531B2C7907",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_86_24.tif",
+      "item_id": "WSF2019_v1_86_24",
+      "current_sha256": "D5ED04C916261CA67E8164DB68716B06C9A7101C2473C438DC3960161625B4E8",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_88_20.tif",
+      "item_id": "WSF2019_v1_88_20",
+      "current_sha256": "C3EF36D52B1D38E59AF767C6A2FC16AC83393675AB9629A48925025FE5CB8D0D",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_88_22.tif",
+      "item_id": "WSF2019_v1_88_22",
+      "current_sha256": "5544676567F6DFF1DCEA664998F75D3224BF2519CB5C41489C5751EC089B572E",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_88_24.tif",
+      "item_id": "WSF2019_v1_88_24",
+      "current_sha256": "08E1F18B710A520DCCE1BACB01B010185092F8D15EC4DCC7C5571CF0B387A31D",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_90_26.tif",
+      "item_id": "WSF2019_v1_90_26",
+      "current_sha256": "3326D533F9DEEFEE5ED0AECF13AA15BCF62E54C5AF49D9E1964B6BB7D4F3586A",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_92_24.tif",
+      "item_id": "WSF2019_v1_92_24",
+      "current_sha256": "57DB55E09338CDC531CE8E9191710F9197205220913E296F64F097E8B63103A4",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_94_24.tif",
+      "item_id": "WSF2019_v1_94_24",
+      "current_sha256": "347F0493711D83AB3BBE0F946463AB89D5138198872B4D37D5235BAA985D6D81",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_70_22.tif",
+      "item_id": "WSFevolution_v1_70_22",
+      "current_sha256": "DF187C43078F88D0B3B7FF5C0EC24ACBB7FFD2C32E7F03672A22F178417CB634",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_72_18.tif",
+      "item_id": "WSFevolution_v1_72_18",
+      "current_sha256": "F1793CCCFE50BCEDF0C0BE623C0102CD7C9CC942A5CB58C9B30C7BDF017367B7",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_72_20.tif",
+      "item_id": "WSFevolution_v1_72_20",
+      "current_sha256": "BCE3F0D033013484B4A04EFC88BC6E3F21482FA2E3070B9F08DFF03431A363E0",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_72_22.tif",
+      "item_id": "WSFevolution_v1_72_22",
+      "current_sha256": "A8340D35E9E19DC679B5671A0E019C577C671FD997A739A69EF5B47EB21E5DB2",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_72_26.tif",
+      "item_id": "WSFevolution_v1_72_26",
+      "current_sha256": "16361D4E3E45A6922DA9DB05EC5EAE638B70B06A45897316404B0ECC08577AB0",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_10.tif",
+      "item_id": "WSFevolution_v1_74_10",
+      "current_sha256": "6E658C9BF667617024226705C8D7C157F79D3C0ADAFB48C89ACE8EFB57884CDD",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_12.tif",
+      "item_id": "WSFevolution_v1_74_12",
+      "current_sha256": "6183D390049D2674A9981A8E6830B4AFB80AEB878471214CA0D71C556D99ADC6",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_16.tif",
+      "item_id": "WSFevolution_v1_74_16",
+      "current_sha256": "F485A5E2484C33D26813212AC04DC907BCE3EA9463D631F2C9A75C26CC84272B",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_18.tif",
+      "item_id": "WSFevolution_v1_74_18",
+      "current_sha256": "F44DA7309C50F9F2DF414EEFB6601B4F74C731252D01D4245C119985D5516BEB",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_22.tif",
+      "item_id": "WSFevolution_v1_74_22",
+      "current_sha256": "4B49FA75A8CC97AE7953AFFD5BD8D418CA0D30DE731AE7791B3327FD5385CEFD",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_24.tif",
+      "item_id": "WSFevolution_v1_74_24",
+      "current_sha256": "911EF0BD3FED767A7B45EEF97978CE9EB9D958C5B1482526EEED6C70221467D2",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_26.tif",
+      "item_id": "WSFevolution_v1_74_26",
+      "current_sha256": "ABDBA1408321A18839BB1700BC0B1BBCD393661A5EA6C955EBBC189ECA9A7BA7",
+      "sha256_matches_recorded_and_old_audit": false,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_32.tif",
+      "item_id": "WSFevolution_v1_74_32",
+      "current_sha256": "499DFB93642E9CA1069DCFB745E28B9EB3BAF0A3BB18D474E018A3BCE8DAB522",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_34.tif",
+      "item_id": "WSFevolution_v1_74_34",
+      "current_sha256": "9B609AC1DAC06894625871377C85A2C96D62DC1A71FAD12BC4AEC6ED50EF3B6A",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_10.tif",
+      "item_id": "WSFevolution_v1_76_10",
+      "current_sha256": "7C8A7119FB72D075DA646973ACB42C84B03B2EDA3D5AC3E2C59EA65E8CB8510E",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_12.tif",
+      "item_id": "WSFevolution_v1_76_12",
+      "current_sha256": "377C0DB10A8B4BE6B5E4486D010D4591CC6165E58F208B821166B0C25AA03683",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_16.tif",
+      "item_id": "WSFevolution_v1_76_16",
+      "current_sha256": "D1C0E8032E693F8C2FB166C12CFD1E3A7CCB7DC25D2E3969913CB06D924B79BF",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_22.tif",
+      "item_id": "WSFevolution_v1_76_22",
+      "current_sha256": "D17CF74FC607CE000BCD61E747E30179914E8364E0119303168402C35F87B7A4",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_26.tif",
+      "item_id": "WSFevolution_v1_76_26",
+      "current_sha256": "08F02D618D8192B5B920748ADEE010F5EE5FBD3874D68DD022011BBE0FC8F30D",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_28.tif",
+      "item_id": "WSFevolution_v1_76_28",
+      "current_sha256": "F1BD44E72264F44FC6AE98D9BACCF31BE96CA15E6080BE1225040E9E0E4948C6",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_30.tif",
+      "item_id": "WSFevolution_v1_76_30",
+      "current_sha256": "ABAF9543EE7A4D0339076B254851BDF3372BDCE47E63065333253B6CAD35EE14",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_76_8.tif",
+      "item_id": "WSFevolution_v1_76_8",
+      "current_sha256": "4D36B8D9E1174CC1D957EB08D9755701D7967F6214C5CD74BC634A3BE9B22887",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_10.tif",
+      "item_id": "WSFevolution_v1_78_10",
+      "current_sha256": "5C535C4C25768A78AEDBEEC6B61857FC9D01BC896AF30C078CD587E59D7C64E8",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_12.tif",
+      "item_id": "WSFevolution_v1_78_12",
+      "current_sha256": "0486CAAD4415B3D3C4DE49A3926713FE961F8B675A837598CAA1C6683FD607C9",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_16.tif",
+      "item_id": "WSFevolution_v1_78_16",
+      "current_sha256": "54E41914262889CD1B0EBE014F85556EE9CA40A78ADABFC3E8B4DA585240E68F",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_20.tif",
+      "item_id": "WSFevolution_v1_78_20",
+      "current_sha256": "76FD866B5087EFA8151A93BF382A18F122C2E5F46D9F5A4E9A500CBB4BECD697",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_22.tif",
+      "item_id": "WSFevolution_v1_78_22",
+      "current_sha256": "E323EC40D54E752D0F2E05C3898E8311B33E87CEAC94189DCFECE68F7B87E605",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_26.tif",
+      "item_id": "WSFevolution_v1_78_26",
+      "current_sha256": "47EA635B5DD5C64126C8BDE410839BCB02BCA2D08731442A67CE27705DB24F27",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_28.tif",
+      "item_id": "WSFevolution_v1_78_28",
+      "current_sha256": "E25E09DD25542CFD98C07D50E7148794234B370F1633A4F288509FFD93588FC0",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_30.tif",
+      "item_id": "WSFevolution_v1_78_30",
+      "current_sha256": "2F8EAC1E5C46275877EC91789025C5E1FAB72EFEF810D1B9CE2BEA24DCFCC0DF",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_8.tif",
+      "item_id": "WSFevolution_v1_78_8",
+      "current_sha256": "22CF9D9257EDA7DB1417FE7EB372F1346AB5500779494BA63ED64FF2C9D0A80C",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_80_12.tif",
+      "item_id": "WSFevolution_v1_80_12",
+      "current_sha256": "57631050405D76D218E8E6EF82CEF00A800ED08F56999212F6E500A0ECC920D4",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_80_16.tif",
+      "item_id": "WSFevolution_v1_80_16",
+      "current_sha256": "E53A03139FC4486CD27D36FFF634DACC746EDB5E828E4B221D41F5F280CF42FA",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_80_20.tif",
+      "item_id": "WSFevolution_v1_80_20",
+      "current_sha256": "F8031B3B123F639306FB398205C89FEFDF77259F236CCC295C605747CF569B66",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_80_22.tif",
+      "item_id": "WSFevolution_v1_80_22",
+      "current_sha256": "A8E931B4C511083A5267026DDAA698C4203ADA2CAB30462BD411EC3377FD078F",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_80_24.tif",
+      "item_id": "WSFevolution_v1_80_24",
+      "current_sha256": "A8F4EB3600AB893FF93B0565E1BEFCD5C38DC5C53AD8C8EFC779E35BC7793BE3",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_80_26.tif",
+      "item_id": "WSFevolution_v1_80_26",
+      "current_sha256": "51F95BC341F2155D665DCFEA35A1E79E3974A44D9510FCAE2F3C1C4B43016691",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_80_28.tif",
+      "item_id": "WSFevolution_v1_80_28",
+      "current_sha256": "70EB12E354A2B3C108D530A1E522244C067AF1E863C1757E5AE244D02E4BFF70",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_82_16.tif",
+      "item_id": "WSFevolution_v1_82_16",
+      "current_sha256": "9F733E780378CFBA42AACFF21EB56FD6E4FA04DDF6CBB7C792A1EEB8A92EAEE9",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_82_20.tif",
+      "item_id": "WSFevolution_v1_82_20",
+      "current_sha256": "8F674DDE3CBF418AA2CD2002D15675F2FEFF48FD289396C3D0F0DBDFD7044CA3",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_82_22.tif",
+      "item_id": "WSFevolution_v1_82_22",
+      "current_sha256": "10B14804817B058BE53FAB1BF69CD56EB47BDDBA3272110F22E00AA9D167F082",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_82_24.tif",
+      "item_id": "WSFevolution_v1_82_24",
+      "current_sha256": "40315ED975B07AB5EBF5C1EFC25DB79F7ADECD4FC25287231D51573DEE64D0CD",
+      "sha256_matches_recorded_and_old_audit": false,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_82_26.tif",
+      "item_id": "WSFevolution_v1_82_26",
+      "current_sha256": "8044DF430D6F8641A166E7302BE0EE9D87B76DE902619E463D3573C87E9BCF16",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_84_20.tif",
+      "item_id": "WSFevolution_v1_84_20",
+      "current_sha256": "D36B4BD717B9339301BDB1EF38A22EA980A3C03222433626AB740EE73DFCF585",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_84_24.tif",
+      "item_id": "WSFevolution_v1_84_24",
+      "current_sha256": "44CA50DEF34A9B5E790DF3DAD20B36BD65BE4873520C686ED666B44E98510992",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_84_26.tif",
+      "item_id": "WSFevolution_v1_84_26",
+      "current_sha256": "AB1F4C01A20AE9030757845EB53692E10F0CCFA0E908BF15B6B6388BE83A3593",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_86_22.tif",
+      "item_id": "WSFevolution_v1_86_22",
+      "current_sha256": "DDBE8EEA8C2F53A5EF042E6B8270D6533ABF343168B3D72CF8A1ADC0AFC73117",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_86_24.tif",
+      "item_id": "WSFevolution_v1_86_24",
+      "current_sha256": "215B3707FA00AC854D22B2762251A4C7B87C45D603F9F2BEEF56D52D45FA0EDD",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_88_20.tif",
+      "item_id": "WSFevolution_v1_88_20",
+      "current_sha256": "35A6E2A74967A92D59A146E8B72D93CBD4816537A749782EFB5B042E3E2D1890",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_88_22.tif",
+      "item_id": "WSFevolution_v1_88_22",
+      "current_sha256": "FE58EAA42CBD2DF752A6B6C31D4156BDC31303F1DDE5B71D0DBBB4F4D8BEDBC8",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_88_24.tif",
+      "item_id": "WSFevolution_v1_88_24",
+      "current_sha256": "F2C29A44DAC30FD0307512BAF6A4F5354F5AA7F53D18E2CE3C5E3834BB634EDA",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_90_26.tif",
+      "item_id": "WSFevolution_v1_90_26",
+      "current_sha256": "B9E0D0D621CA5E75AFD9C3B0D36CB23297911C11632C0C7B8E7FE3046286777F",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_92_24.tif",
+      "item_id": "WSFevolution_v1_92_24",
+      "current_sha256": "6B8E320E15C5F144316DDA439D5E0FB6F12B92CA96413F25DA194BA1AF4F0717",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_94_24.tif",
+      "item_id": "WSFevolution_v1_94_24",
+      "current_sha256": "FFFA33DFF450A8FCCC9B77AED3ED65C245A8F53F7A972BBD9821001CE491A57D",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": false,
+      "recovered_file_readonly": null
+    },
+    {
+      "path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_76_10_refetch_20261005_1791134833100802900.tif",
+      "item_id": "WSF2019_v1_76_10",
+      "current_sha256": "DE8ADBBB152D236228930AEE2A488C01E60D6B7EE56C136D218CB6DA29FCCD32",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": true,
+      "recovered_file_readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_78_22_refetch_20261005_1791134838415792700.tif",
+      "item_id": "WSF2019_v1_78_22",
+      "current_sha256": "F0689F1268C75DD663C821C59864928FAE47257E5E464ADB196FD7229D9032D8",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": true,
+      "recovered_file_readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_78_28_refetch_20261005_1791134842034922600.tif",
+      "item_id": "WSF2019_v1_78_28",
+      "current_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": true,
+      "recovered_file_readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_84_26_refetch_20261005_1791134846461834000.tif",
+      "item_id": "WSF2019_v1_84_26",
+      "current_sha256": "E197AB850232E14A8EB766B07388E0A7EC290D5A6076CCCFAAC9102D7E2989F6",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": true,
+      "recovered_file_readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSFevolution_v1_74_30_refetch_20261005_1791134851154795600.tif",
+      "item_id": "WSFevolution_v1_74_30",
+      "current_sha256": "1F22CDF5E936E5C49A0F2B71219C218C20FB6BCFF62B34E12A6BF0A42468116D",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": true,
+      "recovered_file_readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSFevolution_v1_84_22_refetch_20261005_1791134854994078100.tif",
+      "item_id": "WSFevolution_v1_84_22",
+      "current_sha256": "30CD11721271E19F92673283B8B16F0601DF6C127DD686207C651EAF5AC2EB95",
+      "sha256_matches_recorded_and_old_audit": true,
+      "recovered_source": true,
+      "recovered_file_readonly": true
+    }
+  ],
+  "interpretation": "Internal numeric, geometry and source-identity audit; no construction-ground-truth or map-accuracy claim"
+}

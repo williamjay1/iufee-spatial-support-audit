@@ -1,0 +1,459 @@
+{
+  "date": "2026-10-08",
+  "software": "matplotlib, SciencePlots science/nature, cmcrameri; dedicated scifig Python",
+  "design_reference": [
+    "https://github.com/garrettj403/SciencePlots",
+    "https://www.nature.com/nature/for-authors/final-submission"
+  ],
+  "data_unchanged": true,
+  "figures": {
+    "figure_1_frame": {
+      "nominal_mm": [
+        180.0,
+        58.0
+      ],
+      "tight_mm": [
+        171.5,
+        56.2
+      ],
+      "tight_growth_mm": -8.5,
+      "tight_within_max": true,
+      "max_width_mm": 183,
+      "panel_titles": [],
+      "left_titles_found": 0,
+      "min_font_pt": 7.0,
+      "fonts_under_5pt": [],
+      "pdf_fonttype": 42,
+      "ok": true,
+      "all_text_minimum_pt": 7.0,
+      "bold_lowercase_panel_labels": [
+        "a",
+        "b"
+      ],
+      "text_box_collisions": [],
+      "off_canvas_text": [],
+      "role": "Letter main figure 1",
+      "data_sources": [
+        "results/OFFICIAL_MAP_REGISTRATION.json",
+        "datasets/official_boundary_paths.json",
+        "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\derived\\roster\\study_unit_roster.csv"
+      ],
+      "vector_note": "PDF and SVG contain original vector text and geometry; vector resolution is independent of dpi.",
+      "pdf_size_mm": [
+        179.99999491373697,
+        58.00000194973415
+      ],
+      "pdf_raster_image_objects": 0,
+      "pdf_fonts": [
+        "GYRKHP+ArialMT",
+        "MWOAYY+Arial-BoldMT"
+      ],
+      "png_export_dpi": 1000,
+      "paths": {
+        "pdf": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_1_frame.pdf",
+          "sha256": "1783938205b5c3e49810916d3e608c07630c3c101694f0c9c430869324c25e55",
+          "bytes": 204515
+        },
+        "svg": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_1_frame.svg",
+          "sha256": "1aa4f1edf82f301e89bbac13f6a87762740e0846b5b43696f07ce6efadbc8c47",
+          "bytes": 459128
+        },
+        "png": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_1_frame.png",
+          "sha256": "20e5c374581dd7d4f2f47e29bae6d533625f7c1a3a510aaad618c57aeb34713d",
+          "bytes": 698367
+        }
+      },
+      "label_placement": {
+        "map_bbox_figure_pt": [
+          53.94709760117194,
+          25.483464566929133,
+          159.33164255630837,
+          146.32440944881887
+        ],
+        "annotations": {
+          "Delhi": {
+            "side": "left",
+            "text_bbox_figure_pt": [
+              35.60709760117194,
+              121.5736132428334,
+              51.44709760117194,
+              128.3267577740834
+            ],
+            "gap_pt": 2.5000000000000044,
+            "leader_length_pt": 30.14643455249277,
+            "outside_map": true,
+            "leader_text_intersections": []
+          },
+          "Guwahati": {
+            "side": "right",
+            "text_bbox_figure_pt": [
+              161.8316425563083,
+              95.19689821059524,
+              191.59164255630833,
+              101.95004274184522
+            ],
+            "gap_pt": 2.4999999999999636,
+            "leader_length_pt": 24.979744589773734,
+            "outside_map": true,
+            "leader_text_intersections": []
+          },
+          "Sultanpur": {
+            "side": "left",
+            "text_bbox_figure_pt": [
+              21.68709760117194,
+              75.5455320792268,
+              51.44709760117194,
+              82.29867661047679
+            ],
+            "gap_pt": 2.5000000000000044,
+            "leader_length_pt": 51.87128199553802,
+            "outside_map": true,
+            "leader_text_intersections": []
+          },
+          "China": {
+            "side": "right",
+            "text_bbox_figure_pt": [
+              161.8316425563083,
+              131.64836089679943,
+              180.07164255630832,
+              138.40150542804946
+            ],
+            "gap_pt": 2.4999999999999636,
+            "leader_length_pt": 38.00860967130755,
+            "outside_map": true,
+            "leader_text_intersections": []
+          },
+          "Kashmir region": {
+            "side": "left",
+            "text_bbox_figure_pt": [
+              25.047097601171938,
+              130.93426127454907,
+              51.44709760117194,
+              146.53918314954907
+            ],
+            "gap_pt": 2.5000000000000044,
+            "leader_length_pt": 24.04043338820042,
+            "outside_map": true,
+            "leader_text_intersections": []
+          }
+        },
+        "all_labels_outside_map": true,
+        "minimum_required_gap_pt": 2,
+        "minimum_required_leader_length_pt": 16,
+        "minimum_observed_gap_pt": 2.4999999999999636,
+        "minimum_observed_leader_length_pt": 24.04043338820042,
+        "transparent_label_background": true
+      }
+    },
+    "figure_4_representation": {
+      "nominal_mm": [
+        180.0,
+        95.0
+      ],
+      "tight_mm": [
+        172.3,
+        85.8
+      ],
+      "tight_growth_mm": -7.7,
+      "tight_within_max": true,
+      "max_width_mm": 183,
+      "panel_titles": [],
+      "left_titles_found": 0,
+      "min_font_pt": 7.0,
+      "fonts_under_5pt": [],
+      "pdf_fonttype": 42,
+      "ok": true,
+      "all_text_minimum_pt": 7.0,
+      "bold_lowercase_panel_labels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "text_box_collisions": [],
+      "off_canvas_text": [],
+      "role": "Letter main figure 2",
+      "data_sources": [
+        "results\\revision_20261007\\diagnostics_city_decomposition.csv",
+        "results\\revision_20261007\\diagnostics_summary.json",
+        "results\\revision_20261007\\diagnostics_exposure_JF_symmetric_decomposition.csv",
+        "results\\revision_20261007\\diagnostics_queue_coverage.csv"
+      ],
+      "vector_note": "PDF and SVG contain original vector text and geometry; vector resolution is independent of dpi.",
+      "pdf_size_mm": [
+        179.99999491373697,
+        95.00000449286566
+      ],
+      "pdf_raster_image_objects": 0,
+      "pdf_fonts": [
+        "FVEOTG+DejaVuSans-Oblique",
+        "GXDUII+DejaVuSans",
+        "HJYJZF+ArialMT",
+        "BHPUCF+Arial-BoldMT"
+      ],
+      "png_export_dpi": 1000,
+      "paths": {
+        "pdf": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_4_representation.pdf",
+          "sha256": "525364ddefaf22c576e627bbea6e6b7c7e74ba09adc51d5f2925bf647a693c0a",
+          "bytes": 53646
+        },
+        "svg": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_4_representation.svg",
+          "sha256": "cb051dca41b16957c827f75678b17f32bab3f33f71e0f2e443523e9787bddece",
+          "bytes": 42236
+        },
+        "png": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_4_representation.png",
+          "sha256": "c51190e4fc143ed6b1fe4563f01f50bc417bbac20a700d8ed0e06763ba791ebd",
+          "bytes": 620884
+        }
+      }
+    },
+    "figure_5_glad": {
+      "nominal_mm": [
+        180.0,
+        58.0
+      ],
+      "tight_mm": [
+        174.0,
+        57.5
+      ],
+      "tight_growth_mm": -6.0,
+      "tight_within_max": true,
+      "max_width_mm": 183,
+      "panel_titles": [],
+      "left_titles_found": 0,
+      "min_font_pt": 7.0,
+      "fonts_under_5pt": [],
+      "pdf_fonttype": 42,
+      "ok": true,
+      "all_text_minimum_pt": 7.0,
+      "bold_lowercase_panel_labels": [
+        "a",
+        "b",
+        "c"
+      ],
+      "text_box_collisions": [],
+      "off_canvas_text": [],
+      "role": "Letter main figure 3",
+      "data_sources": [
+        "results\\revision_20261007\\diagnostics_glad_class_allocation.csv",
+        "results\\glad_city_summary.csv"
+      ],
+      "vector_note": "PDF and SVG contain original vector text and geometry; vector resolution is independent of dpi.",
+      "pdf_size_mm": [
+        179.99999491373697,
+        58.00000194973415
+      ],
+      "pdf_raster_image_objects": 0,
+      "pdf_fonts": [
+        "ENZBIT+ArialMT",
+        "EYIZPP+Arial-BoldMT"
+      ],
+      "png_export_dpi": 1000,
+      "paths": {
+        "pdf": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_5_glad.pdf",
+          "sha256": "9a6a8ddcc9b4fc923b50563ac04bd4fc13bffde43760d6fe31873977c676c2af",
+          "bytes": 43212
+        },
+        "svg": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_5_glad.svg",
+          "sha256": "b1995595afd40ef1f503f624857d89be3230d478042437284c96a0237b021fd8",
+          "bytes": 35891
+        },
+        "png": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_5_glad.png",
+          "sha256": "d3bdf40d625ba3aa5b9ee5ae250cd01ed86eb4dba904a6394cfdad1c5bdff946",
+          "bytes": 537593
+        }
+      }
+    },
+    "figure_2_cases": {
+      "nominal_mm": [
+        180.0,
+        60.0
+      ],
+      "tight_mm": [
+        174.5,
+        56.1
+      ],
+      "tight_growth_mm": -5.5,
+      "tight_within_max": true,
+      "max_width_mm": 183,
+      "panel_titles": [],
+      "left_titles_found": 0,
+      "min_font_pt": 7.0,
+      "fonts_under_5pt": [],
+      "pdf_fonttype": 42,
+      "ok": true,
+      "all_text_minimum_pt": 7.0,
+      "bold_lowercase_panel_labels": [
+        "a",
+        "b"
+      ],
+      "text_box_collisions": [],
+      "off_canvas_text": [],
+      "role": "Supplementary three city examples",
+      "data_sources": [
+        "results\\revision_frechet_city.csv",
+        "results\\revision_application_cities.csv",
+        "results\\joint_overlay_city_summary.csv",
+        "results\\glad_IND_FUA_07466_summary.json",
+        "results\\glad_IND_FUA_10496_summary.json",
+        "results\\glad_IND_FUA_09258_summary.json"
+      ],
+      "vector_note": "PDF and SVG contain original vector text and geometry; vector resolution is independent of dpi.",
+      "pdf_size_mm": [
+        179.99999491373697,
+        59.99999830457899
+      ],
+      "pdf_raster_image_objects": 0,
+      "pdf_fonts": [
+        "CHTJQZ+ArialMT",
+        "MWOAYY+Arial-BoldMT"
+      ],
+      "png_export_dpi": 1000,
+      "paths": {
+        "pdf": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_2_cases.pdf",
+          "sha256": "26a2256ea7a89c55a63501646ede861194ebe3dc035f205d8079a63499216121",
+          "bytes": 40923
+        },
+        "svg": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_2_cases.svg",
+          "sha256": "64309d9fbbace4069a240a61fb21bb6cc7846e509c7c51023276da5fddce5cec",
+          "bytes": 23884
+        },
+        "png": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_2_cases.png",
+          "sha256": "cb1ccbc9e9d2e15344ca1fa40c89bf00b8cfd91d52af89c6f39ddf33fff872d1",
+          "bytes": 346398
+        }
+      }
+    },
+    "figure_3_case_maps": {
+      "nominal_mm": [
+        180.0,
+        169.0
+      ],
+      "tight_mm": [
+        167.0,
+        162.1
+      ],
+      "tight_growth_mm": -13.0,
+      "tight_within_max": true,
+      "max_width_mm": 183,
+      "panel_titles": [],
+      "left_titles_found": 0,
+      "min_font_pt": 7.0,
+      "fonts_under_5pt": [],
+      "pdf_fonttype": 42,
+      "ok": true,
+      "all_text_minimum_pt": 7.0,
+      "bold_lowercase_panel_labels": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "text_box_collisions": [],
+      "off_canvas_text": [],
+      "role": "Supplementary native cell maps",
+      "data_sources": [
+        "results\\glad_cell_fractions\\IND_FUA_07466.parquet",
+        "results\\glad_cell_fractions\\IND_FUA_10496.parquet",
+        "results\\glad_cell_fractions\\IND_FUA_09258.parquet"
+      ],
+      "vector_note": "PDF and SVG contain original vector text and geometry; vector resolution is independent of dpi.",
+      "pdf_size_mm": [
+        179.99999491373697,
+        168.99999881320528
+      ],
+      "pdf_raster_image_objects": 0,
+      "pdf_fonts": [
+        "HBLQOT+ArialMT",
+        "EUCIJB+Arial-BoldMT"
+      ],
+      "png_export_dpi": 1000,
+      "paths": {
+        "pdf": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_3_case_maps.pdf",
+          "sha256": "2d19ddcbba96e77b6f3cffe4015b02d76ac8fcbfca3599d5a277466bc3437312",
+          "bytes": 6986222
+        },
+        "svg": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_3_case_maps.svg",
+          "sha256": "090881473cde2154d3b266e8c45ac9a8b436e8d2c621f2509fa4b1da91f38ee5",
+          "bytes": 64028062
+        },
+        "png": {
+          "path": "D:\\MLWork\\IUFEE_revision_20261005\\manuscript\\figures\\figure_3_case_maps.png",
+          "sha256": "92c2c256a7916039d8b4cad9f6ef754c8ab3f175f6021df3379d01326425ed01",
+          "bytes": 2219533
+        }
+      }
+    }
+  },
+  "source_hashes": {
+    "results\\OFFICIAL_MAP_REGISTRATION.json": "07c5026e4c1681fb3c206f275161371b7d910e5199c97e32d54315cb03b7efb8",
+    "datasets\\official_boundary_paths.json": "0a4e7fc724acdd01e16023ed114eb437dd9c478ca12c96486bfe8e8566e55a1c",
+    "results\\revision_20261007\\diagnostics_city_decomposition.csv": "7fc5b6d12841bde0cea2ea67ea3d58c9681fc8e232c8b13c34d8cdbe48f117c0",
+    "results\\revision_20261007\\diagnostics_summary.json": "8e89c4a1dcecee82898b8314d55d3b855dbd8f456bf658f33d6719d27d7d7aa3",
+    "results\\revision_20261007\\diagnostics_exposure_JF_symmetric_decomposition.csv": "0cb43bdd60038ba2afd797707016e226c37e94c544a9780f59c83c7d60d0c23f",
+    "results\\revision_20261007\\diagnostics_queue_coverage.csv": "681db5dcb758b390cbf5ce90fa080a3afcb12c6b991f75bc47629bfa9ea962d9",
+    "results\\revision_20261007\\diagnostics_glad_class_allocation.csv": "32e50013bbb05684121af50eae102c94482c432e9acbce89536e157bc4d02900",
+    "results\\glad_city_summary.csv": "b8d551d12ead259cb311e53eaeae68c534e8f312b02a0afb1abaf852edddc1f6",
+    "results\\revision_frechet_city.csv": "9844445a8fed3df625a919a6a2ae16bbf94c7fb6e70f3b4740bb82983ddf1edf",
+    "results\\revision_application_cities.csv": "3f41a9832fc26d0211e9ffd2da597cd27d09c9505061f59ef5371aa2b354d5bc",
+    "results\\joint_overlay_city_summary.csv": "99d650a2e30c512ea0f83bdf66b1ae3000f658c9bb2cf557269792d3eb0d2caf",
+    "results\\glad_IND_FUA_07466_summary.json": "4fec9adaceb9a6d34e11adeb8de5600579c02db9dc2fdbabf92cdf4609a50e67",
+    "results\\glad_IND_FUA_10496_summary.json": "2d3af3f4f94f705a0a9b4a5f9bd393f2ece42654fb58a653e6d2c229b65fbce1",
+    "results\\glad_IND_FUA_09258_summary.json": "2ce28958f6de49fb8e2f34a18c8875f98b0e2a46666c1c9ae524a349c3a5b9ee",
+    "results\\glad_cell_fractions\\IND_FUA_07466.parquet": "88b85c8805ceceeaf250cdec585119a1ff6350b930e58b25a9c1307e9a158361",
+    "results\\glad_cell_fractions\\IND_FUA_10496.parquet": "2ee00becaf62ac23a7f32e284169ec7f14bfac0f87b7dde6b5c3f11a138882e2",
+    "results\\glad_cell_fractions\\IND_FUA_09258.parquet": "e78b8dc759d3cb67e81e4c708d621555e87ec554ef92aae3f3509985ad2c5f82"
+  },
+  "visual_inspection": {
+    "figure_1_frame": {
+      "actual_preview_opened": true,
+      "preview_sha256": "e2f7abb46bdacced0cc42ee29789d04fafe8bf8bbb6a4d239c4a3dbd1da60e62",
+      "status": "PASS after external-label correction: root, figure agent and independent auditor inspected current figure; all five labels are in white space with transparent backgrounds and longer leaders",
+      "compiled_placement_owner": "root; all five recompiled main pages inspected"
+    },
+    "figure_4_representation": {
+      "actual_preview_opened": true,
+      "preview_sha256": "fa620450000cdde9f249ddb8d518a3187c38a548adb04b87c5511269b713cd03",
+      "status": "PASS after repair; no observed clipping or annotation obstruction",
+      "compiled_placement_owner": "root"
+    },
+    "figure_5_glad": {
+      "actual_preview_opened": true,
+      "preview_sha256": "3cba028eadcce146db243ba9d71d008ad2c57c8ffc6966a3d1ffbdd783180e01",
+      "status": "PASS after repair; no observed clipping or annotation obstruction",
+      "compiled_placement_owner": "root"
+    },
+    "figure_2_cases": {
+      "actual_preview_opened": true,
+      "preview_sha256": "0253ff1105557232c3df3c479fc1fd946c2095caba9b54f8495dd7f4c0c35639",
+      "status": "PASS after repair; no observed clipping or annotation obstruction",
+      "compiled_placement_owner": "root"
+    },
+    "figure_3_case_maps": {
+      "actual_preview_opened": true,
+      "preview_sha256": "35722279b7c7e604e28ec591a0225944fd362ae99ede44a58b79c491b370774e",
+      "status": "PASS after repair; no observed clipping or annotation obstruction",
+      "compiled_placement_owner": "root"
+    }
+  },
+  "all_rendered_text_collision_checks_passed": true
+}

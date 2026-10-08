@@ -1,0 +1,153 @@
+{
+  "unit_key": "IND_FUA_08952",
+  "eFUA_name": "Nagpur",
+  "version": "joint_overlay_10m_nearest_lexicographic_first_valid_v3_fresh_identity",
+  "positive_cells": 11695,
+  "ghsl_added_surface_m2": 4179117.0,
+  "target_bbox_100m_cells": 150500,
+  "fine_grid_pixels": 15050000,
+  "ghsl_valid_100m_cells": 83500,
+  "ghsl_valid_fine_grid_pixels": 8350000,
+  "paired_coverage_minimum_fua": 1.0,
+  "missing_source_fua_cells": 0,
+  "bound_max_violation": 5.960464477539063e-08,
+  "class_partition_max_error": 5.960464477539063e-08,
+  "independent_2019_class_partition_max_error": 5.960464477539063e-08,
+  "independent_evolution_class_partition_max_error": 0.0,
+  "source_overlap_statistics": {
+    "WSF_2019": {
+      "overlap_fine_pixel_events": 0,
+      "value_conflict_fine_pixel_events": 0,
+      "fua_overlap_fine_pixel_events": 0,
+      "fua_value_conflict_fine_pixel_events": 0,
+      "fua_binary_class_conflict_fine_pixel_events": 0
+    },
+    "WSF_Evolution": {
+      "overlap_fine_pixel_events": 0,
+      "value_conflict_fine_pixel_events": 0,
+      "fua_overlap_fine_pixel_events": 0,
+      "fua_value_conflict_fine_pixel_events": 0,
+      "fua_binary_class_conflict_fine_pixel_events": 0
+    }
+  },
+  "source_records": {
+    "WSF_2019": [
+      {
+        "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_20.tif",
+        "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_20.tif",
+        "recovery_record": null,
+        "item_id": "WSF2019_v1_78_20",
+        "bounds": [
+          77.98993633668861,
+          19.989940522926474,
+          80.01006774761659,
+          22.010071933854455
+        ],
+        "crs": "EPSG:4326",
+        "shape": [
+          22488,
+          22488
+        ],
+        "nodata": null,
+        "dtype": "uint8",
+        "transform": [
+          8.983152841195215e-05,
+          0.0,
+          77.98993633668861,
+          0.0,
+          -8.983152841195215e-05,
+          22.010071933854455,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "prior_source_sha256": "504DBA487D9645A6E024B132BCFF8DFA3E1F855093E5EA926D8AE267B9574380",
+        "source_sha256": "504DBA487D9645A6E024B132BCFF8DFA3E1F855093E5EA926D8AE267B9574380",
+        "sha256_matches_prior_audit": true,
+        "source_stat_at_initial_hash": {
+          "bytes": 6463889,
+          "mtime_ns": 1786606544146951500,
+          "ctime_ns": 1786606542879273600
+        }
+      }
+    ],
+    "WSF_Evolution": [
+      {
+        "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_20.tif",
+        "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_20.tif",
+        "recovery_record": null,
+        "item_id": "WSFevolution_v1_78_20",
+        "bounds": [
+          77.98984650516022,
+          19.98976085986965,
+          80.01024741067343,
+          22.01016176538287
+        ],
+        "crs": "EPSG:4326",
+        "shape": [
+          7497,
+          7497
+        ],
+        "nodata": null,
+        "dtype": "int32",
+        "transform": [
+          0.00026949458523585647,
+          0.0,
+          77.98984650516022,
+          0.0,
+          -0.00026949458523585647,
+          22.01016176538287,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "prior_source_sha256": "76FD866B5087EFA8151A93BF382A18F122C2E5F46D9F5A4E9A500CBB4BECD697",
+        "source_sha256": "76FD866B5087EFA8151A93BF382A18F122C2E5F46D9F5A4E9A500CBB4BECD697",
+        "sha256_matches_prior_audit": true,
+        "source_stat_at_initial_hash": {
+          "bytes": 2839769,
+          "mtime_ns": 1786606916600853100,
+          "ctime_ns": 1786606916065710000
+        }
+      }
+    ]
+  },
+  "joint_overlay_allocated_surface_m2": 1244140.7885767445,
+  "joint_overlay_depth_weighted_proxy_m3": 1757.4720396866005,
+  "fine_product_allocated_surface_m2": 1274770.099763122,
+  "fine_product_depth_weighted_proxy_m3": 2030.329994756878,
+  "archived_product_allocated_surface_m2": 1307875.003613879,
+  "archived_product_depth_weighted_proxy_m3": 2212.7105525920715,
+  "joint_vs_fine_product_signed_surface_difference_m2": -30629.31118637744,
+  "joint_vs_fine_product_absolute_cell_surface_difference_m2": 44386.06875025978,
+  "joint_vs_fine_product_signed_depth_proxy_difference_m3": -272.85795507027734,
+  "joint_vs_fine_product_absolute_cell_depth_proxy_difference_m3": 291.14506080900037,
+  "joint_vs_fine_product_max_cell_fraction_difference": 0.20399998804926867,
+  "fine_vs_archived_product_signed_surface_difference_m2": -33104.90385075711,
+  "fine_vs_archived_product_absolute_cell_surface_difference_m2": 141309.67624926253,
+  "fine_vs_archived_product_signed_depth_proxy_difference_m3": -182.38055783519326,
+  "fine_vs_archived_product_absolute_cell_depth_proxy_difference_m3": 558.3627677377478,
+  "fine_vs_archived_product_max_cell_fraction_difference": 0.19302332401275635,
+  "fine_minus_archived_s_g_weighted_mean": -0.007773279853763541,
+  "fine_vs_archived_s_g_weighted_mae": 0.03756467809353302,
+  "fine_vs_archived_s_cell_max_absolute_difference": 0.19302332401275635,
+  "fine_minus_archived_p_g_weighted_mean": 0.001865463581209673,
+  "fine_vs_archived_p_g_weighted_mae": 0.012459920138499213,
+  "fine_vs_archived_p_cell_max_absolute_difference": 0.2105100154876709,
+  "fine_minus_archived_u_g_weighted_mean": 1.8125006033928748e-05,
+  "fine_vs_archived_u_g_weighted_mae": 0.00031918980998804153,
+  "fine_vs_archived_u_cell_max_absolute_difference": 0.0950712114572525,
+  "fine_lower_allocated_surface_m2": 1177433.7986157853,
+  "fine_upper_allocated_surface_m2": 1360076.3789568953,
+  "fine_lower_depth_weighted_proxy_m3": 1580.449991563984,
+  "fine_upper_depth_weighted_proxy_m3": 2414.5856275604456,
+  "completed_utc": "2026-10-04T17:41:35.211460+00:00",
+  "elapsed_seconds": 1.565,
+  "raster_path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08952_t_s_p_u_coverage_100m.tif",
+  "joint_overlay_normalized_city_depth_m": 0.0014125990047292717,
+  "fine_product_normalized_city_depth_m": 0.0015927028686460048,
+  "archived_product_normalized_city_depth_m": 0.0016918364113374593,
+  "joint_overlay_city_depth_rank": 75,
+  "fine_product_city_depth_rank": 76,
+  "archived_product_city_depth_rank": 76
+}

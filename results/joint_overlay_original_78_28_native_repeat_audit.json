@@ -1,0 +1,32 @@
+{
+  "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_28.tif",
+  "checked_utc": "2026-10-04T17:42:48.476316+00:00",
+  "sha256_before": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+  "old_audit_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+  "native_histogram_old": {
+    "0": 495559026,
+    "1": 331,
+    "255": 10128299
+  },
+  "source_stat_before": {
+    "bytes": 8825497,
+    "mtime_ns": 1786606550048068200,
+    "ctime_ns": 1786606548326292500
+  },
+  "mode": "read-only full native block histogram; complete only if decoder succeeds on every block",
+  "native_histogram_complete": true,
+  "native_histogram_observed": {
+    "0": 495559026,
+    "1": 331,
+    "255": 10128299
+  },
+  "native_blocks_successfully_read": 1936,
+  "native_histogram_matches_old": true,
+  "sha256_after": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+  "source_stat_after": {
+    "bytes": 8825497,
+    "mtime_ns": 1786606550048068200,
+    "ctime_ns": 1786606548326292500
+  },
+  "interpretation": "This repeated read records current bytes and native class counts. A successful repeat does not explain the earlier identity mismatch or decoder failure. Matching class counts alone do not establish pixel identity; the SHA256 comparison is separately recorded. No source file is modified."
+}

@@ -1,0 +1,20 @@
+{
+  "city_count": 91,
+  "positive_change_record_count": 1259886,
+  "total_positive_GHSL_change_m2": 400535818.0,
+  "total_positive_GHSL_change_km2": 400.535818,
+  "complete_seven_RP_records": 1259886,
+  "max_cell_stored_vs_recomputed_integral_abs_error_m": 9.471867343791018e-07,
+  "max_historic_detected_plus_unresolved_partition_error": 5.960464477539063e-08,
+  "max_city_original_four_scenario_depth_abs_error_m": 3.836230000331398e-09,
+  "max_city_original_four_scenario_denominator_abs_error_m2": 0.0043380483984947205,
+  "cell_RP_monotonicity_violations_tolerance_1e_6_m": 2437,
+  "four_scenario_median_depth_m": {
+    "endpoint_supported": 0.11587102578815467,
+    "ghsl_only": 0.11933017913639579,
+    "joint_supported_screened": 0.11731466248692493,
+    "preexisting_detected_screened": 0.1204649403510661
+  },
+  "validation_interpretation": "Numerical reconstruction only. Reusing the same parent products is not independent settlement or flood accuracy validation.",
+  "reconstruction_passed": true
+}

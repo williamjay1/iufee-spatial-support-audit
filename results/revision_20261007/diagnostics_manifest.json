@@ -1,0 +1,1300 @@
+{
+  "script": "D:\\MLWork\\IUFEE_revision_20261005\\scripts\\representation_diagnostics_20261007.py",
+  "script_sha256": "35566FEEC4A469AC4A22FBE488494FCD7E9F60E8FD25C4B07C408A2572018A0A",
+  "frozen_input_audits": {
+    "JFA": {
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\joint_overlay_verification.json",
+      "sha256": "F5BF6DAC6F38B0CB5D596092A5A76BBA8F69A8FDF46D1B8215E8D1C3D28966E9",
+      "all_passed": true
+    },
+    "GLAD": {
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_verification.json",
+      "sha256": "9EF24CFEDAA4EC6333ABF8311DD406D03892D0368C99DDABD428EBCFF87D80B1",
+      "all_passed": true
+    }
+  },
+  "inputs": [
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_02091",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_02091_positive_cells.parquet",
+      "sha256": "5B0D55E762D153A01C1F3E6B5E72E7EA4FD19257318F80EA7BF9FA917B45B621",
+      "bytes": 141047
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_02091",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_02091.parquet",
+      "sha256": "0A1B2EB1B6C506D4DFD62B0C9AE054743957033F124AA1CF925A0AC248FAF7D0",
+      "bytes": 155604
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_03357",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_03357_positive_cells.parquet",
+      "sha256": "1CBA989FC05FC9267E4947B6BC4B4CC64FCF2053F124344BB40B7BB2BE9B0139",
+      "bytes": 236283
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_03357",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_03357.parquet",
+      "sha256": "86DBED8C58800D3FA49921B16EA654D844624BA1D7A6516F845B63F1A7B29760",
+      "bytes": 270317
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_03722",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_03722_positive_cells.parquet",
+      "sha256": "D64C28C9ABF227A62CEDFA333DBDF542422AD6555D6EBBBE053766995E83A52B",
+      "bytes": 170545
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_03722",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_03722.parquet",
+      "sha256": "8E70119290BCC81A91929A078CFC55E697C66F3E0BA73B8CBB235896D316BB67",
+      "bytes": 199289
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_04396",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_04396_positive_cells.parquet",
+      "sha256": "4835ED126BD522A25738649AA7B0B006D5FA68C03C1EE6678046A825959F0107",
+      "bytes": 427863
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_04396",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_04396.parquet",
+      "sha256": "A9BB0C7DF68DDE132008EFB8BB2CA1375F447E5120FD7D20323A284791FE66AC",
+      "bytes": 489879
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_05324",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_05324_positive_cells.parquet",
+      "sha256": "ECCDA715370226565BF7A375918B0AE92AD41B620FDD24C4163063A08B9F0049",
+      "bytes": 359693
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_05324",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_05324.parquet",
+      "sha256": "23FA01A64208ECC645F8589111815A8337544186235E3FAE25E0882B095E653A",
+      "bytes": 414431
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_05617",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_05617_positive_cells.parquet",
+      "sha256": "DFA3FEB6AA994D85115930301670F911C65B92D5E4A6B89BC53845A495E0DB04",
+      "bytes": 200708
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_05617",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_05617.parquet",
+      "sha256": "5DB9323E4D191D935DC6EAEF270D916E094F93A1109F4892915F10477D8C9DBE",
+      "bytes": 228292
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_05991",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_05991_positive_cells.parquet",
+      "sha256": "1B7B442F22DEA8C2AB04935097AA28BB2C570F34A10C66FB705838B058423D4A",
+      "bytes": 717535
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_05991",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_05991.parquet",
+      "sha256": "BC2B4B62619CFA482A38BDB1294A2EEEEBE60BFCE37C703A44044965F97261DE",
+      "bytes": 846666
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_06065",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_06065_positive_cells.parquet",
+      "sha256": "9CAA05DE870745BAB988845FD260982A7B5E80C10DB97C5921509F9B25E91DC7",
+      "bytes": 359716
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_06065",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_06065.parquet",
+      "sha256": "E2DF0402914F1BB94434BBD6AA20DD6CAF998772F67522924973F65796A83DB2",
+      "bytes": 416414
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_06611",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_06611_positive_cells.parquet",
+      "sha256": "545A2EF2A7EF24366F2DEE556A560A99845AB2B8AFAED7CA71232FA8965F175C",
+      "bytes": 388862
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_06611",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_06611.parquet",
+      "sha256": "D6AFF11E50DB45CB01A7874494CC0BF8CAB0B4CD79035CBD0A61AB44316F2C1D",
+      "bytes": 425229
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_06651",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_06651_positive_cells.parquet",
+      "sha256": "9D12FA2F2539F021AE4B5E245EC8CFB9BA4861AB5BAEA9EC9B09D8850885D0C2",
+      "bytes": 252445
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_06651",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_06651.parquet",
+      "sha256": "47C338DCA7CF32E32261EC619CA610FE97A6685CB49910D719FD549F2089F18F",
+      "bytes": 298560
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_06781",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_06781_positive_cells.parquet",
+      "sha256": "144CD8D39981841D14E5161FDEB567BC9F61CF8E1A788726D73647154C9FDE2E",
+      "bytes": 374455
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_06781",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_06781.parquet",
+      "sha256": "9A3A416691462477D1CBDE50A10B56F670DFF84B81D185D41374FB565E7366C4",
+      "bytes": 448241
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07108",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07108_positive_cells.parquet",
+      "sha256": "13B7D18A1AA624B95AD30591A81773672A2A52D9E008200AD2C4E49CA772E8DA",
+      "bytes": 176357
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07108",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07108.parquet",
+      "sha256": "D72DFF2CBA2BCD398C11979BC49DEC20D0835C5B6B6404B372103050E4D58BF1",
+      "bytes": 203804
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07139",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07139_positive_cells.parquet",
+      "sha256": "37F1552FBA1D97DECEDD1FAD76DE58EF1D491AFD140FF386A269940543BBE914",
+      "bytes": 122895
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07139",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07139.parquet",
+      "sha256": "CF0BF7F3A204B05B9D944579AE97F4CA8CA975103F0DD1DD398C75FB25D9BA41",
+      "bytes": 134520
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07163",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07163_positive_cells.parquet",
+      "sha256": "79D00E7F4ACDCC86D0991B45D6277EE615BA164E1C22B922A21B613F61CC2CAB",
+      "bytes": 655692
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07163",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07163.parquet",
+      "sha256": "6EC5728E6B374D54907E1BC119C6CBD210ABF0898C463EE1636F8DB1E9239DBB",
+      "bytes": 747175
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07320",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07320_positive_cells.parquet",
+      "sha256": "DB23A5F05CF0120DA43C898991063C4DFD9483F230FE10A1E98BAFCA6D2277A8",
+      "bytes": 595320
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07320",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07320.parquet",
+      "sha256": "9205DA0165B4A93F21D1AD02DD60A6574ABF7F77306E35E1C5A5AF439B85B6E2",
+      "bytes": 780434
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07466",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07466_positive_cells.parquet",
+      "sha256": "F5556D0F361077ADEF6295AEDB15A5D36556ACE8074FB61A4A42227DC6024DBF",
+      "bytes": 3330218
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07466",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07466.parquet",
+      "sha256": "88B85C8805CECEEAF250CDEC585119A1FF6350B930E58B25A9C1307E9A158361",
+      "bytes": 3952080
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07490",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07490_positive_cells.parquet",
+      "sha256": "611C29E991791583033031111FA306C17934CC9F1B2524D1706146E5B76E304D",
+      "bytes": 95258
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07490",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07490.parquet",
+      "sha256": "7DB478CC05B39D56101D258BC9A4BD16F67F60A33CC019455351C98DE9D210DE",
+      "bytes": 110202
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07499",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07499_positive_cells.parquet",
+      "sha256": "370266DE4E092DEB8876F45C80FAD98B351289574A44118DBC382CFD669C09D3",
+      "bytes": 242827
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07499",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07499.parquet",
+      "sha256": "626F50DD1EF10B74F0DE6EA73E185B0A8A52569840FDD904C4C75A2D22940075",
+      "bytes": 287297
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07581",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07581_positive_cells.parquet",
+      "sha256": "7EEC95D514A29CF2ECFEB1D94753C038302FB71E15C4AC81C82EB23389D98C28",
+      "bytes": 112634
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07581",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07581.parquet",
+      "sha256": "80C8E1E5653F3DF95D4C07419886679F71A37F4AAF4E55E0035509FB208DCB90",
+      "bytes": 123586
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07601",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07601_positive_cells.parquet",
+      "sha256": "55F7BCCC63B164526E8E183672EB3C07F52308494873EC74712F9D4AA0DB54CC",
+      "bytes": 165794
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07601",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07601.parquet",
+      "sha256": "718125657F2B7992E5E6790524B489589A4449BB69D9E05986307FF5A5A3C8B4",
+      "bytes": 182978
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07617",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07617_positive_cells.parquet",
+      "sha256": "451B9B36C307F334708FC992960661C1AF51E51F178E13B66134D4FE2A40533F",
+      "bytes": 790013
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07617",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07617.parquet",
+      "sha256": "6CF18CC60E4E115C7543548E64131210EBA6104EB222D38856ED4A4548955582",
+      "bytes": 994146
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07631",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07631_positive_cells.parquet",
+      "sha256": "D08E795ABD5C85FC89EAEABEC1FC00F14EEB326469A0BA65977A80621F4A268F",
+      "bytes": 146747
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07631",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07631.parquet",
+      "sha256": "BB4EE96A66184E9771BF1551683A2FF17B3DE8461718B3F38E20F843A6C5040F",
+      "bytes": 165709
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07643",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07643_positive_cells.parquet",
+      "sha256": "A5B13349A68D97968F66DC27DB159E5F5AB61E5D4B9E02EB7BCCA648F78769CC",
+      "bytes": 381568
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07643",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07643.parquet",
+      "sha256": "B25C6AD9C08D157E85DDC251A038D55C1B2FC3D4BB789E17963F30E049EC3233",
+      "bytes": 437579
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07839",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07839_positive_cells.parquet",
+      "sha256": "C0739909BDBB232A0606E6A3F320DBB35E5D146936E3E5C5A0A733AE45D20126",
+      "bytes": 405656
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07839",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07839.parquet",
+      "sha256": "708F8C78489C20006F6C58142803FADF4311CA420E8168FE9B16607AB7FC97A8",
+      "bytes": 478332
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07881",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07881_positive_cells.parquet",
+      "sha256": "3E82B516461F9B6B7A39B229515D14F5B122763D4C2FE6EFCB866948641772DF",
+      "bytes": 105876
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07881",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07881.parquet",
+      "sha256": "3A5D982DAA5E9742E3A7845B85162FA1414A0B2C34463D204C7351F89A8EFFFF",
+      "bytes": 120477
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07895",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07895_positive_cells.parquet",
+      "sha256": "35B6EADDA1839581A40F83326BC0800C67C23BEA69E4CED16EF2018D3ACA7861",
+      "bytes": 264044
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07895",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07895.parquet",
+      "sha256": "1D51B14BEFBE5574B2B4B46C7A03C42234C011DEE9BB6DC207A704DDB4D4E27C",
+      "bytes": 292078
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07933",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07933_positive_cells.parquet",
+      "sha256": "970B3FA978B79258B6D46629D30230C5CD7B8CC9637E9AD0E207A9E215E8A450",
+      "bytes": 205704
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07933",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07933.parquet",
+      "sha256": "F36BB1CFB5A2B4A4DD2F8CEC644053E84DD92B12D10CE48FDCED04AD19667F50",
+      "bytes": 236312
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07957",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07957_positive_cells.parquet",
+      "sha256": "63A75B80ABF15DAF392B84D50ECB174B96B420CC1259376B5DB04EB0CAA22CBA",
+      "bytes": 298650
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07957",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07957.parquet",
+      "sha256": "AE2AAE66ADAF510118053BB87D6B03B9765A73E78F1A68E19BFC4596CC0A5024",
+      "bytes": 351399
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07961",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07961_positive_cells.parquet",
+      "sha256": "36A94DFC5278A4F69E459F5CA5E88D9C96FDB5492A3EC468C98DEF339C1F9F3A",
+      "bytes": 163315
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07961",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07961.parquet",
+      "sha256": "B656F887186E3A4FD51DC1C0B47D450503C302E0503B863444CF10A12109C79A",
+      "bytes": 184546
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_07996",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_07996_positive_cells.parquet",
+      "sha256": "4BB2DAB69628DAC0C4D24DD57FC6DC05CF1B2E5D1F4ECC8DE1413766DA4CF3C0",
+      "bytes": 142313
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_07996",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_07996.parquet",
+      "sha256": "DAABB3E7F29329B862319757C7C49870151ADB0678F924E63A9F80CBD06CF411",
+      "bytes": 162146
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08144",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08144_positive_cells.parquet",
+      "sha256": "A9155705E6B212B120A1FC35F3AB9E79C89591AD3949E2F63351F8362C33BEAF",
+      "bytes": 125088
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08144",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08144.parquet",
+      "sha256": "837DCF223A84AD81B4154ED370782388597F7B7EA9EA2FDD308C8792B46A6DA3",
+      "bytes": 144900
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08224",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08224_positive_cells.parquet",
+      "sha256": "60DAD75C6D13587E918EC67DC7333BA5C674F72E6EBF11D8988F6732156772FB",
+      "bytes": 189696
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08224",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08224.parquet",
+      "sha256": "CD24A58494F97BC37856AF63122361098BBDCEEF4915567C7AFACEF2CFE8191E",
+      "bytes": 211422
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08258",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08258_positive_cells.parquet",
+      "sha256": "DCB71F56207CA288ED7778479801879812BF3CCBF144DCA6D91960699C538F28",
+      "bytes": 229297
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08258",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08258.parquet",
+      "sha256": "290D2C122CE85B0FC4DC8BD21FFCFAC4C2E2E52D16EF79FE1716DB4A3789D930",
+      "bytes": 265842
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08319",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08319_positive_cells.parquet",
+      "sha256": "DEE1BABE965E3D28FB8C3512C7E3A194090FB501C322D97B5CADA54B2FCC4769",
+      "bytes": 319915
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08319",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08319.parquet",
+      "sha256": "E43619EB975A282FFC7A1EDF2DDC8D0B539D19ACA191CB09D194552B449C4951",
+      "bytes": 378307
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08341",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08341_positive_cells.parquet",
+      "sha256": "9ADBF2880CB8E83C717B2089F3F8F042C26A101391112F813179887AA5F25482",
+      "bytes": 113935
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08341",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08341.parquet",
+      "sha256": "F15969B9E0E6B36A8385AE2A2C04BA030E5030DCDFE16E1F2D9C534202A16F07",
+      "bytes": 121112
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08419",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08419_positive_cells.parquet",
+      "sha256": "2CE949F8E00992AA35C58A575D2AEA90406C94A40C2B2A91FC719150B0949DF1",
+      "bytes": 78190
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08419",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08419.parquet",
+      "sha256": "ACC4C44F40DF413BAC37C9F06191F50449E4D4A68B348E209B3D20090B9549AF",
+      "bytes": 84636
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08433",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08433_positive_cells.parquet",
+      "sha256": "EF89A2B37E0961CD1195F870B259103CF4C474B1213EF0AACCC582E1EDA7F636",
+      "bytes": 135331
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08433",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08433.parquet",
+      "sha256": "B7F89CFBBB20975C364CA012779645F3E494347E8F7A2099C2E8E9A7F60F70AE",
+      "bytes": 151497
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08497",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08497_positive_cells.parquet",
+      "sha256": "9DA4969AD1E17ADEDE28CE537880E8B537EAC7A450F4484214340412ECD1DCBF",
+      "bytes": 277672
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08497",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08497.parquet",
+      "sha256": "A0692DF401DBFA86A4496F4EFA8E1A2F5AAA06E2E6B4AFD1BE66BC4064A97D16",
+      "bytes": 364617
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08587",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08587_positive_cells.parquet",
+      "sha256": "9ED3A4531A516F7442484E9061A608F9111158870FF769EF942ED9957E35EC2D",
+      "bytes": 62564
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08587",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08587.parquet",
+      "sha256": "41A790BFA76B0839CC28DE0ACA1DA024585840F863C31FDE6483B65B1DD8B686",
+      "bytes": 65907
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08595",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08595_positive_cells.parquet",
+      "sha256": "F06D1B4E745B654737718A46BAC3A8E58BD625B0221AE49D2EB39CF7C584485C",
+      "bytes": 236871
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08595",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08595.parquet",
+      "sha256": "C4B38C30D35784F61D4C07AF8A9DBEF6C99D2292294F3C4F976298F003FC4D43",
+      "bytes": 336413
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08673",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08673_positive_cells.parquet",
+      "sha256": "81667141A2CF37BF5202F64C08354594082755C39F6AE0C585380FE1B3AABCB1",
+      "bytes": 389400
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08673",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08673.parquet",
+      "sha256": "E883A2786056FA3785F9D1C851B03ECBA78D731E8CD40D414325C14A9657923D",
+      "bytes": 503052
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08674",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08674_positive_cells.parquet",
+      "sha256": "B5CDBCA2A0AB73AC051202BA7BD6792CE7AC2CA28E98B6DB175687E2583E996A",
+      "bytes": 734695
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08674",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08674.parquet",
+      "sha256": "4AD03497E86D9094C0054B9DF06CD0E546272DEBA724A8828D0B2C2EA0747C8F",
+      "bytes": 970855
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08675",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08675_positive_cells.parquet",
+      "sha256": "7D9A9472B35E7CAE6EC3174AD00435A8E9F798FB4103DCBB777B5B9E90D142A8",
+      "bytes": 407847
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08675",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08675.parquet",
+      "sha256": "12485316613DBC6C6FBFA5F950A746A3A05DAC3E8D589B09E3446FC111837111",
+      "bytes": 538431
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08686",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08686_positive_cells.parquet",
+      "sha256": "D87FA6060A01754CF52D16163AE9167E88C4A91AD6B91B5EA213ED8EDF2E093B",
+      "bytes": 57996
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08686",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08686.parquet",
+      "sha256": "573B4478B4FD8378F07671B25CFFCB9926D5ED15A2C0741AE2B6C323A2FDFB7C",
+      "bytes": 62928
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08722",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08722_positive_cells.parquet",
+      "sha256": "B38623E51B2DB034D174299C509A302B4C4B0F439715D0C81CC363D66A2BE003",
+      "bytes": 496281
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08722",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08722.parquet",
+      "sha256": "350BBAC1A4ED2CC2249F843AB74778EE86DC14E3DBA2732A7CBA348441FD95D7",
+      "bytes": 569252
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08848",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08848_positive_cells.parquet",
+      "sha256": "32E0AEB17091104432BFA0AC6EABB4A56D58F9B2EC135F3643EB1CE36F411204",
+      "bytes": 824213
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08848",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08848.parquet",
+      "sha256": "2FC9317D27FD7F555A4CEA898C2A729D06B5AC6D596D73BBD42E2DD4C8742CB1",
+      "bytes": 1011768
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08896",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08896_positive_cells.parquet",
+      "sha256": "ADDC2EE0833927BAE2206EF6FAC962900BD58576AE4EFE651BF71A0D18DF2C7B",
+      "bytes": 146696
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08896",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08896.parquet",
+      "sha256": "05CAC9FA8C75AFF4FEE8FB2A8C4628A5509A7E1AD9A478A8A38DEEFC45AAD6A0",
+      "bytes": 183424
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08900",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08900_positive_cells.parquet",
+      "sha256": "4CF8A8EB79CED037AE9D9684D67B4B8DACE4108D3D63ED71403299083279E52C",
+      "bytes": 1226084
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08900",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08900.parquet",
+      "sha256": "3328E5CC9151CFBF73B74BC20416642BBB070E0BE5FC780AE8F9F1AB4DEBCB71",
+      "bytes": 1508337
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08952",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08952_positive_cells.parquet",
+      "sha256": "A56DCFF316185361ECCC1D0E8B05E794772F5A54998F8D7C09F2D5187CB50BA4",
+      "bytes": 284250
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08952",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08952.parquet",
+      "sha256": "E205DF8C072C8C26FCA9C212A6B73EC9C1171172F2D43FBFA53893BF1EC53498",
+      "bytes": 338876
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_08997",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08997_positive_cells.parquet",
+      "sha256": "6C7766EA887027A4B3E64BBAB137EE8FAA39E954597F538BD0284F229680FF9A",
+      "bytes": 516937
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_08997",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_08997.parquet",
+      "sha256": "B5D734565CEBF6FABBF397454FEE5053EF99A20962FDC6CE84E70346A53F64FE",
+      "bytes": 628539
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09007",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09007_positive_cells.parquet",
+      "sha256": "7D19677422D7FC96BDFE0967A2FD774625FC53E3711062371CA4591BEB530AC5",
+      "bytes": 142581
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09007",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09007.parquet",
+      "sha256": "5EE60B30EC35717F91A30E5911EAF9323878E3173645F8C8AC127B1028711299",
+      "bytes": 162082
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09013",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09013_positive_cells.parquet",
+      "sha256": "ABEA2D1550FE2DEA59DED100C2BFA0D450F1A65772697B329A490CF547B2516D",
+      "bytes": 483022
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09013",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09013.parquet",
+      "sha256": "65B1127FC1A5D32A6F4AF64A6854CA70700B5280B96AD195CE4ED5CFEEA39698",
+      "bytes": 631340
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09045",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09045_positive_cells.parquet",
+      "sha256": "9C3918D3D32BAA2AB8936BD3E674EED184EC4CA4553F860EDAAFDB8F882224F3",
+      "bytes": 1009116
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09045",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09045.parquet",
+      "sha256": "C2199C8E7690C876EA5502D921524E23DB8CAF2E291A41EB9BED95AC0DDAEB9C",
+      "bytes": 1238483
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09069",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09069_positive_cells.parquet",
+      "sha256": "0C5AC81BB4BBD0E08C82B8FDDA1A179D3921AEB6D95E07E4F2E19AC184E83AAD",
+      "bytes": 555968
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09069",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09069.parquet",
+      "sha256": "1578C89D890E88FED7C44FED118F1FD863B49781D1596FC2F6C4881DE32C397D",
+      "bytes": 706285
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09099",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09099_positive_cells.parquet",
+      "sha256": "85BE537262C20C8437D9F843F69C4ACE8AE76DCA643AC6D4CEDB16DBC972A766",
+      "bytes": 1203032
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09099",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09099.parquet",
+      "sha256": "6B7AAD6B857B4DCD53BE1ED23AC1837B2BCE2498CDF85911AF3595461B9FE338",
+      "bytes": 1575328
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09129",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09129_positive_cells.parquet",
+      "sha256": "8E25F3E4409DC7D770CB8BC3F02D4B1DF9AFBCAEC1E40585B49D339FD2D05688",
+      "bytes": 68451
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09129",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09129.parquet",
+      "sha256": "139F975EE1EBE9E24D97A9CCB68E1100E949303ACAEE91F876823CB21C11E673",
+      "bytes": 78599
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09157",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09157_positive_cells.parquet",
+      "sha256": "88FFCD0F9D2B8E08A596724EB46F287929CCC7E544E500720F2DBCD91B8C5692",
+      "bytes": 366777
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09157",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09157.parquet",
+      "sha256": "1B32A8E732D32538B781AB0E9D8E2BABD910E85B586022668B86834CDDB2C759",
+      "bytes": 470668
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09165",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09165_positive_cells.parquet",
+      "sha256": "CD0D0E9D2C072A22484FFAD8D3BE07CCEEE72FBE7B8EA40546DA2A029A83F7BB",
+      "bytes": 382271
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09165",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09165.parquet",
+      "sha256": "0A8C497F78C759B1878E5F532CF428F9F2F8440A443F7ED4EAF4D8A740FE9594",
+      "bytes": 504976
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09195",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09195_positive_cells.parquet",
+      "sha256": "2F534F56F3C3FABB088F9C22B9228341DC3D3B6FC36DD5E4AE2CE8625F068A81",
+      "bytes": 209290
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09195",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09195.parquet",
+      "sha256": "6FCF62687DCD2B11EB4FFD29F5F83410A981CEDE7DC3447C29D9DEAA271CE5E5",
+      "bytes": 236766
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09258",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09258_positive_cells.parquet",
+      "sha256": "6B102D8BA9E414DC32F3B1BE406D9E30A60D4E5C414F9DC8F45145CD43CA0882",
+      "bytes": 121204
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09258",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09258.parquet",
+      "sha256": "E78B8DC759D3CB67E81E4C708D621555E87EC554EF92AAE3F3509985AD2C5F82",
+      "bytes": 138420
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09266",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09266_positive_cells.parquet",
+      "sha256": "9DB73FD2D2CADBF2E2798E5194446AA189C2B3F0FA11CF5BEF865D6D0514DC8A",
+      "bytes": 333763
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09266",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09266.parquet",
+      "sha256": "3E4F74AD8B45ED3E8F71AF300286F0B72419B9E8F43C327F68C9D2C03F448647",
+      "bytes": 455194
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09282",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09282_positive_cells.parquet",
+      "sha256": "335DCC42B3A482A3573B074B10CE093DD1D5EFFE5711D8D06E6D7D66759003C2",
+      "bytes": 188924
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09282",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09282.parquet",
+      "sha256": "D602B4901EC90622877BCBD70D21F98EDD72530267B5987720BE0ABFEC425A64",
+      "bytes": 224809
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09368",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09368_positive_cells.parquet",
+      "sha256": "F9C36BABFF9475742FDCE69D5E96449C0A119CDCC74CECB41930294E7F336A1B",
+      "bytes": 330401
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09368",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09368.parquet",
+      "sha256": "F97B18F51B59AFB2AEBC000A4ECF2A20A3B832C3E386F06FFB93E0AABA9A8002",
+      "bytes": 472874
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09444",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09444_positive_cells.parquet",
+      "sha256": "F88F712917B331458BDFC7009BD7C4BEC6E238760FEA7686E98896A59267FC43",
+      "bytes": 205256
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09444",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09444.parquet",
+      "sha256": "66D55752FD6578DF588DAF9661E08AC362E63368C1383032FE37D05230B81BA5",
+      "bytes": 245979
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09500",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09500_positive_cells.parquet",
+      "sha256": "D649DA310705CBF2DF8C114E8D0733F8E371DEB4F52DE48E0D2231BDC20B51F4",
+      "bytes": 352907
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09500",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09500.parquet",
+      "sha256": "19CA75F89137CFE24A387D2FAAD1CCADD64F7D37A573A0E371428EFEB581FF92",
+      "bytes": 405879
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09544",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09544_positive_cells.parquet",
+      "sha256": "B17CB351DA4D5EFDB86CE822C6519C2203CEC5AFE2C8356DBBD32F1D6DFC5C34",
+      "bytes": 223948
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09544",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09544.parquet",
+      "sha256": "C4E71B6E23721AA04AEE1143D3C08DF802C91FA8C28AA147426EEFA6CCC7F880",
+      "bytes": 261355
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09562",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09562_positive_cells.parquet",
+      "sha256": "4B5EA6525435286E1F551548694652DDA3EDA03A11C76F54E8DE5BD1F04ADCC8",
+      "bytes": 1020159
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09562",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09562.parquet",
+      "sha256": "248D76E6F9D48C65F2BF2A4E545E02DA03BDCE91882D6448F1D48017CA90A82B",
+      "bytes": 1276712
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09564",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09564_positive_cells.parquet",
+      "sha256": "CD9F08FEB7657881B3A0C046C7AFD60EC1DE94425BF0312B14566C1F2AA09A20",
+      "bytes": 129350
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09564",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09564.parquet",
+      "sha256": "772A9B26687AA6B5B0B64EC07AB6D9975F3E732632749E21CBE51F80B0F38F61",
+      "bytes": 141823
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09570",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09570_positive_cells.parquet",
+      "sha256": "3638932D511DAF36394F7F8A7684145B78B29949B59CF71461C1DEB8CBE71C6D",
+      "bytes": 263966
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09570",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09570.parquet",
+      "sha256": "132D9615D352EBA970513E13C30448C12B63A7394685545EA591B93B26EDF5D0",
+      "bytes": 317409
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09620",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09620_positive_cells.parquet",
+      "sha256": "D3178A2F16FC19BEBA9415C5075CBE46C906D8DAABA81138D1821814FCE1F1B3",
+      "bytes": 268274
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09620",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09620.parquet",
+      "sha256": "54758873814EE7D9E4B68655ED5C9142419D20635929E49655A8EB0BFAF8F784",
+      "bytes": 305720
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09710",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09710_positive_cells.parquet",
+      "sha256": "7C86A196FCD7B6EF5414C2A744C9DDC3B8B5EBDA2B30B3B803EF56EBCA9DF1B8",
+      "bytes": 155678
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09710",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09710.parquet",
+      "sha256": "09843FB8477905110318592BDC06B33297E8E80832E3CEF0F4A69FD398F13951",
+      "bytes": 176895
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09782",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09782_positive_cells.parquet",
+      "sha256": "0BF3BA9A5F3E7FC9915901109ACBC63E4C986737EB5E351BC3F4C72B12D28DB0",
+      "bytes": 478276
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09782",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09782.parquet",
+      "sha256": "8E78902A5C7213075035CBB300777EEBB33C2ADCAC8604D057B03A6B3B622B30",
+      "bytes": 593300
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09794",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09794_positive_cells.parquet",
+      "sha256": "B5237AD0EE9B50443D651C055BDC277E3E568AF85109F3E1B426103CA27A1C02",
+      "bytes": 271177
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09794",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09794.parquet",
+      "sha256": "DD46A0D02B345DAA82ADC42B6340F55FAE386EBCDAD8D17E0BDF9DCBADE2F589",
+      "bytes": 296679
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09834",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09834_positive_cells.parquet",
+      "sha256": "ACB677A8A1F008F18519CD2620B79BBA7DA8E5212D9CEA222E76CC81D17B4A3E",
+      "bytes": 139841
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09834",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09834.parquet",
+      "sha256": "41539D5DB5CA6A0EABA8F4E2CDDE69EBDBFA210B38ACC070871AA214968AAE30",
+      "bytes": 159028
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_09850",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_09850_positive_cells.parquet",
+      "sha256": "D5E2430E9755A6FF47BE8D2569FC7960C41DD3F1D7CBE96F1F3019CED9857B9D",
+      "bytes": 867516
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_09850",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_09850.parquet",
+      "sha256": "985F16FED7E1CD00F6CB754AAA5364A28ED750C851D369728FEBFBD192464DA5",
+      "bytes": 1021732
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10007",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10007_positive_cells.parquet",
+      "sha256": "7D86AA8956A55A0CA5C02AD6F80E3CE2E0FC798759098A56E61FC8346F2002FD",
+      "bytes": 634510
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10007",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10007.parquet",
+      "sha256": "039C92747893E863A66FD45B83525389CA2B136D176CCF5AF134843262268068",
+      "bytes": 763560
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10017",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10017_positive_cells.parquet",
+      "sha256": "31FDEA3CA077953D3CD5FDC0754C54ADE0F760D76597AE188BA4AA10869FB987",
+      "bytes": 281954
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10017",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10017.parquet",
+      "sha256": "9BABB08136E31D2A6484070EE91DBCF526AF829DF6931F355E878DD5B280BC2E",
+      "bytes": 307867
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10065",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10065_positive_cells.parquet",
+      "sha256": "C2B9273D29855F3865E1C38B3A31CB80BCC210802B5C309E22EBCE39B93EE644",
+      "bytes": 83999
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10065",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10065.parquet",
+      "sha256": "1F9C8BE39A532551BD73ABA5DB6EAE40E585ABECD48B61F8FD243464A6BD54DF",
+      "bytes": 99598
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10142",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10142_positive_cells.parquet",
+      "sha256": "AE61758748649EBA8CBA193D7CC17F527373820D2F86309CF6A9BE7451D47B8A",
+      "bytes": 240045
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10142",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10142.parquet",
+      "sha256": "7D847F91327777F4CF554F408069F7A49FDCEA7949B060744E5DFF4B61558D66",
+      "bytes": 270784
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10152",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10152_positive_cells.parquet",
+      "sha256": "FB7C6DBA6BAFD7C48A7976BF0CEA47DFAEBDFF9B2EBCE5162D2D5B869BBBEC26",
+      "bytes": 154790
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10152",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10152.parquet",
+      "sha256": "84258FDC104F64E291170AF588627706BD755F2B3707923C201E1265884EAC63",
+      "bytes": 167655
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10168",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10168_positive_cells.parquet",
+      "sha256": "FB1A42D8C1AF9588E8180BF230B2E97CA17C7172A4DE49EBA75A894B3AD14A2D",
+      "bytes": 243785
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10168",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10168.parquet",
+      "sha256": "8B21DA0B113457B6099C8AD79E82C6E7B1D5D5437DCE8E677B22FD2EFEDB3BD9",
+      "bytes": 322628
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10243",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10243_positive_cells.parquet",
+      "sha256": "81D7B15E80956100F6598BD2F0F8A263420EAF075895B58FBB6536CF6B1A11EF",
+      "bytes": 280270
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10243",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10243.parquet",
+      "sha256": "22399BF6EA1F8A1CBA04C61A5E5DE785991E75351CD489A813B5B5FDF94A7F49",
+      "bytes": 306252
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10285",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10285_positive_cells.parquet",
+      "sha256": "80E18A36B4D2FC9B075553A9F0E492B80FA99B2BB6BA80E6C3CBB5439EC55C2C",
+      "bytes": 80208
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10285",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10285.parquet",
+      "sha256": "06DB774C5F8FCF9DDC66FBC13FA1E0919406673D55367846340FD578F0CD2EC8",
+      "bytes": 87370
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10313",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10313_positive_cells.parquet",
+      "sha256": "0FA2E5A2EC3A79D5CE89C19BC516210B9FD5F18C14408A93D911AF112C29A7B2",
+      "bytes": 196422
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10313",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10313.parquet",
+      "sha256": "00A6F52C0065CA0899BCC3F667802EE2F94DE42117FAC5FD91DB810B89D92258",
+      "bytes": 212410
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10354",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10354_positive_cells.parquet",
+      "sha256": "48D8CB07436075835DAF917F0D49271BAA68B2D8618842A136A0052BBE959139",
+      "bytes": 195459
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10354",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10354.parquet",
+      "sha256": "6F26327D9DEBBD26AF59B66495194368EEA3BCC9763AC497CABCCB038089D000",
+      "bytes": 218049
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10432",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10432_positive_cells.parquet",
+      "sha256": "E2B2FCB992CC2279E6307EB4CC18BCA8D1E526ED212E428605936C5E603B32F3",
+      "bytes": 182674
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10432",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10432.parquet",
+      "sha256": "E4A4EFEB5AF23334B9D83CBCF229ABF3848EE0C29AE9FF429E2BEA68554F5FCE",
+      "bytes": 205357
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10441",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10441_positive_cells.parquet",
+      "sha256": "24680727D1D9BDFC20FE9EDE70454011E5C8FB90549DA813191F39D28604FD3B",
+      "bytes": 783639
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10441",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10441.parquet",
+      "sha256": "E3D9F016D00CA2F6EAE903FD9DC125E38D5041B8AD290F880C59A9E3C246FD4E",
+      "bytes": 930926
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10452",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10452_positive_cells.parquet",
+      "sha256": "CBE385CDBD18EEB63A4AFFF1675349FA8797D7A32E4038C1BB3C87021C6B82EA",
+      "bytes": 1707944
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10452",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10452.parquet",
+      "sha256": "70386F1DCDEB6EC1C4680DA27064F5CB1625912D2C5B6588C0A8E4E99668419B",
+      "bytes": 2143601
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10453",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10453_positive_cells.parquet",
+      "sha256": "F853AB81F146195ADFF969E43CFAA559B8DB8760FD58DB4F8C191D7E69F8C640",
+      "bytes": 196718
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10453",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10453.parquet",
+      "sha256": "9744E48EA7F4CC7C3CB16C41AB95DDEC7EB1DE0F0E3E1096420AC5B061AFE353",
+      "bytes": 255961
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10496",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10496_positive_cells.parquet",
+      "sha256": "38F18C97F490FBF0CBC35EF8740BE075A848D87D76BCFFCAD02EEB794FD76484",
+      "bytes": 186279
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10496",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10496.parquet",
+      "sha256": "2EE00BECAF62AC23A7F32E284169EC7F14BFAC0F87B7DDE6B5C3F11A138882E2",
+      "bytes": 212233
+    },
+    {
+      "product": "JFA",
+      "unit_key": "IND_FUA_10533",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_10533_positive_cells.parquet",
+      "sha256": "B2EB139B10D41313CE0C52ED816EB11405C827AEA8901E8B099EF5723302B58C",
+      "bytes": 180738
+    },
+    {
+      "product": "GLAD",
+      "unit_key": "IND_FUA_10533",
+      "path": "D:\\MLWork\\IUFEE_revision_20261005\\results\\glad_cell_fractions\\IND_FUA_10533.parquet",
+      "sha256": "97D8040774953D888666616CFAD8C5CEF451736A4DF4F6F233C16FDCA9E83D2D",
+      "bytes": 201564
+    }
+  ],
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5"
+  },
+  "no_original_source_reads": true,
+  "no_new_raw_downloads": true,
+  "outputs_directory": "D:\\MLWork\\IUFEE_revision_20261005\\results\\revision_20261007"
+}

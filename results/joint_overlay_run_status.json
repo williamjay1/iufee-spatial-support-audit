@@ -1,0 +1,9 @@
+{
+  "completed_cities": 91,
+  "scope": "all",
+  "estimated_all91_processing_seconds": 186.749,
+  "total_all91_target_bbox_100m_cells": 14223000,
+  "run_utc": "2026-10-04T17:43:21.573857+00:00",
+  "script_sha256": "F661926A8B715693B161601F7855AC9779A464DFAF26B86FC15F76E46894333D",
+  "all_checks_passed": true
+}

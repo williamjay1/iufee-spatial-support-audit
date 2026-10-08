@@ -1,0 +1,113 @@
+{
+  "decreasing_cell_count": 2437,
+  "decreasing_cell_fraction": 0.0019343019924024873,
+  "decreasing_GHSL_change_m2": 359939.0,
+  "decreasing_GHSL_weighted_fraction": 0.0008986437262896673,
+  "decreasing_GHSL_fraction_with_either_QA_flag": 0.7273843623502871,
+  "max_adjacent_drop_m": 14.182999610900879,
+  "largest_drop_diagnostic_record": {
+    "unit_key": "IND_FUA_10243",
+    "eFUA_name": "Dhanbad",
+    "grid_row": 148,
+    "grid_column": 62,
+    "center_x_mollweide_m": 8175250.0,
+    "center_y_mollweide_m": 2907150.0,
+    "lower_RP": 200,
+    "higher_RP": 500,
+    "drop_m": 14.182999610900879,
+    "added_surface_m2": 2.0,
+    "endpoint_support_fraction": 0.0,
+    "preexisting_detected_fraction": 1.0,
+    "permanent_water_QA_fraction": 0.0,
+    "spurious_depth_QA_fraction": 1.0,
+    "RP_depths_m": {
+      "RP10": 13.48799991607666,
+      "RP20": 13.678999900817871,
+      "RP50": 13.897000312805176,
+      "RP75": 13.984999656677246,
+      "RP100": 14.045000076293945,
+      "RP200": 14.182999610900879,
+      "RP500": 0.0
+    },
+    "purpose": "Trace the largest supplied-layer decrease; one diagnostic record, not independent reference evidence."
+  },
+  "adjacent_RP_pairs": [
+    {
+      "lower_RP": 10,
+      "higher_RP": 20,
+      "decreasing_record_count": 442,
+      "decreasing_GHSL_change_m2": 58077.0,
+      "max_drop_m": 0.8999999985098839,
+      "sum_drop_m": 259.4350000843406,
+      "mean_drop_among_decreasing_records_m": 0.5869570137654764
+    },
+    {
+      "lower_RP": 20,
+      "higher_RP": 50,
+      "decreasing_record_count": 423,
+      "decreasing_GHSL_change_m2": 47116.0,
+      "max_drop_m": 0.8999999985098839,
+      "sum_drop_m": 241.4180002734065,
+      "mean_drop_among_decreasing_records_m": 0.5707281330340579
+    },
+    {
+      "lower_RP": 50,
+      "higher_RP": 75,
+      "decreasing_record_count": 704,
+      "decreasing_GHSL_change_m2": 140006.0,
+      "max_drop_m": 0.9579999446868896,
+      "sum_drop_m": 370.30700097233057,
+      "mean_drop_among_decreasing_records_m": 0.5260042627447877
+    },
+    {
+      "lower_RP": 75,
+      "higher_RP": 100,
+      "decreasing_record_count": 144,
+      "decreasing_GHSL_change_m2": 15957.0,
+      "max_drop_m": 0.8999999985098839,
+      "sum_drop_m": 101.01999986171722,
+      "mean_drop_among_decreasing_records_m": 0.7015277768174807
+    },
+    {
+      "lower_RP": 100,
+      "higher_RP": 200,
+      "decreasing_record_count": 273,
+      "decreasing_GHSL_change_m2": 41653.0,
+      "max_drop_m": 0.8999999985098839,
+      "sum_drop_m": 162.82099989056587,
+      "mean_drop_among_decreasing_records_m": 0.5964139190130618
+    },
+    {
+      "lower_RP": 200,
+      "higher_RP": 500,
+      "decreasing_record_count": 454,
+      "decreasing_GHSL_change_m2": 57146.0,
+      "max_drop_m": 14.182999610900879,
+      "sum_drop_m": 940.90999956429,
+      "mean_drop_among_decreasing_records_m": 2.0724889858244273
+    }
+  ],
+  "cummax_city_shift_by_scenario": {
+    "endpoint_supported": {
+      "median_shift_m": 4.723924041868943e-09,
+      "max_shift_m": 0.0016255183288128583,
+      "max_shift_city": "Tamluk"
+    },
+    "ghsl_only": {
+      "median_shift_m": 2.484680090536484e-06,
+      "max_shift_m": 0.0015274822401136756,
+      "max_shift_city": "Kolkata"
+    },
+    "joint_supported_screened": {
+      "median_shift_m": 5.273571381664288e-09,
+      "max_shift_m": 0.001735345650778819,
+      "max_shift_city": "Srinagar"
+    },
+    "preexisting_detected_screened": {
+      "median_shift_m": 2.783365643599725e-06,
+      "max_shift_m": 0.0017124079956961635,
+      "max_shift_city": "Kolkata"
+    }
+  },
+  "interpretation": "Parent-layer depth decreases are disclosed without silent modification. Cumulative maximum is a numeric sensitivity, not a validated correction or an annual depth quantile model."
+}

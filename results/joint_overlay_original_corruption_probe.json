@@ -1,0 +1,29 @@
+{
+  "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_28.tif",
+  "checked_utc": "2026-10-04T17:41:23.624799+00:00",
+  "sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+  "bytes": 8825497,
+  "mtime_ns": 1786606550048068200,
+  "ctime_ns": 1786606548326292500,
+  "mode": "read-only one native block probe; no complete histogram claimed",
+  "window": [
+    4608,
+    5120,
+    512,
+    512
+  ],
+  "crs": "EPSG:4326",
+  "shape": [
+    22487,
+    22488
+  ],
+  "dtype": "uint8",
+  "block_shapes": [
+    [
+      512,
+      512
+    ]
+  ],
+  "decode_success": true,
+  "interpretation": "This repeat one-block probe decoded successfully and its SHA256 equals the old audited value. The previously observed decoder failure was not repeated in this probe. This repeat does not explain the prior identity or decoder failure, or establish its cause or time. No source file was modified."
+}

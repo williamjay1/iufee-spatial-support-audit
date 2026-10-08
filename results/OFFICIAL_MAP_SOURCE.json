@@ -1,0 +1,51 @@
+{
+  "source_url": "https://bzdt-sbsm.obs.cn-north-4.myhuaweicloud.com/prototype/4/4o28b0625501ad13015501ad2bfc2193.jpg",
+  "official_detail_url": "https://bzdt.ch.mnr.gov.cn/browse.html?picId=%224o28b0625501ad13015501ad2bfc2193%22",
+  "source_authority": "Ministry of Natural Resources, China; Standard Map Service",
+  "approval_number": "GS(2023)2761",
+  "title": "Asia, white base, 1:25 million, 4-format",
+  "downloaded_utc": "2026-10-04T17:52:54.311717+00:00",
+  "raw_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\MNR_standard_map_20261005\\MNR_Asia_GS2023_2761_20261005.jpg",
+  "bytes": 14177765,
+  "sha256": "05740c8bd930ba08d49f9b07aa976bae65293dcd3b036fb1bd7cbc5d7f7f14e8",
+  "http_headers": {
+    "Content-Type": "image/jpeg",
+    "Content-Length": "14177765",
+    "ETag": "\"440e1e981953a9930843c61489a97ae8\"",
+    "Last-Modified": "Tue, 12 Nov 2024 11:55:09 GMT"
+  },
+  "space_check_free_bytes": {
+    "F:\\": 3462953558016,
+    "E:\\": 162936901632
+  },
+  "boundary_instruction": "Use Chinese official standard-map depiction for the China-India boundary; do not redraw an approximate boundary.",
+  "approval_scope": "Existing approval identifies the parent standard map; derivative research overlays are not claimed independently approved.",
+  "eps_zip": {
+    "raw_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\MNR_standard_map_20261005\\MNR_Asia_GS2023_2761_EPS_20261005.zip",
+    "bytes": 32094372,
+    "sha256": "96bf98faf401a0b985ec708ab66e94359e5ad2a7dfbb42078a89261bdeddbf1d",
+    "readonly": true,
+    "official_source_url": "https://bzdt-sbsm.obs.cn-north-4.myhuaweicloud.com/prototype/4/4o28b0625501ad13015501ad2bfc2193b.zip"
+  },
+  "eps": {
+    "raw_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\MNR_standard_map_20261005\\MNR_Asia_GS2023_2761_20261005.eps",
+    "bytes": 49274038,
+    "sha256": "455a607155b283145149a21c98d2320c4ef24f805d0c4a0e41e1a0ef0b2ad8c3",
+    "readonly": true
+  },
+  "vector_conversion": {
+    "command": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\mgs.exe",
+      "-dSAFER",
+      "-dBATCH",
+      "-dNOPAUSE",
+      "-dEPSCrop",
+      "-sDEVICE=pdfwrite",
+      "-sOutputFile=D:\\MLWork\\IUFEE_revision_20261005\\temp\\MNR_Asia_GS2023_2761.pdf",
+      "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\MNR_standard_map_20261005\\MNR_Asia_GS2023_2761_20261005.eps"
+    ],
+    "output_path": "D:\\MLWork\\IUFEE_revision_20261005\\temp\\MNR_Asia_GS2023_2761.pdf",
+    "output_sha256": "eb454c72ec0ca03613b145888f8aac793cf91bfa46fd76960284f2eade1e81d0",
+    "treatment": "EPS to PDF on D; no geographic reprojection, boundary edits or raster tracing. Raw sources remain read-only."
+  }
+}

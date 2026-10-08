@@ -1,0 +1,2136 @@
+{
+  "completed_utc": "2026-10-04T16:55:32.681327+00:00",
+  "script_sha256": "317722c479f2290d52be940bffb13bd53a17b30c5f8d62222b008c24d9989906",
+  "invocation": [
+    "D:\\MLWork\\IUFEE_revision_20261005\\scripts\\glad_cross_product.py",
+    "--scope",
+    "all",
+    "--workers",
+    "2"
+  ],
+  "runtime": {
+    "python": "3.12.10",
+    "rasterio": "1.5.1",
+    "gdal": "3.12.4",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "requests": "2.34.2"
+  },
+  "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+  "city_checks": [
+    {
+      "unit_key": "IND_FUA_09258",
+      "positive_cells": 3860,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10496",
+      "positive_cells": 5272,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07466",
+      "positive_cells": 113140,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10452",
+      "positive_cells": 71614,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07163",
+      "positive_cells": 21881,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09099",
+      "positive_cells": 55230,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09850",
+      "positive_cells": 26665,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09045",
+      "positive_cells": 42869,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_05991",
+      "positive_cells": 21864,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_06611",
+      "positive_cells": 8394,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08848",
+      "positive_cells": 32621,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09562",
+      "positive_cells": 42037,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08722",
+      "positive_cells": 16088,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08900",
+      "positive_cells": 43115,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07320",
+      "positive_cells": 26912,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10313",
+      "positive_cells": 9410,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07839",
+      "positive_cells": 16212,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09282",
+      "positive_cells": 6168,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08952",
+      "positive_cells": 11695,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10017",
+      "positive_cells": 5503,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08674",
+      "positive_cells": 31008,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09157",
+      "positive_cells": 15270,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08997",
+      "positive_cells": 17642,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07957",
+      "positive_cells": 10483,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09069",
+      "positive_cells": 24442,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08673",
+      "positive_cells": 17074,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_06781",
+      "positive_cells": 15456,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07643",
+      "positive_cells": 11327,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_06651",
+      "positive_cells": 8550,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08258",
+      "positive_cells": 9192,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10243",
+      "positive_cells": 13960,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09500",
+      "positive_cells": 10020,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10441",
+      "positive_cells": 24013,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_06065",
+      "positive_cells": 12561,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09444",
+      "positive_cells": 6655,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09195",
+      "positive_cells": 5883,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10007",
+      "positive_cells": 17264,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07499",
+      "positive_cells": 10786,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10142",
+      "positive_cells": 8295,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07961",
+      "positive_cells": 6425,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07933",
+      "positive_cells": 5603,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09368",
+      "positive_cells": 17269,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10285",
+      "positive_cells": 2217,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10168",
+      "positive_cells": 12632,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08224",
+      "positive_cells": 5144,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07895",
+      "positive_cells": 6602,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09007",
+      "positive_cells": 5733,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09782",
+      "positive_cells": 18289,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08497",
+      "positive_cells": 12191,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08144",
+      "positive_cells": 4472,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09620",
+      "positive_cells": 8514,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10432",
+      "positive_cells": 4053,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09266",
+      "positive_cells": 15992,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08319",
+      "positive_cells": 12758,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_05324",
+      "positive_cells": 12265,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09794",
+      "positive_cells": 5007,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09165",
+      "positive_cells": 16112,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10453",
+      "positive_cells": 9297,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07139",
+      "positive_cells": 2876,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08595",
+      "positive_cells": 13584,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08896",
+      "positive_cells": 6711,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_03722",
+      "positive_cells": 7272,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09544",
+      "positive_cells": 6278,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_04396",
+      "positive_cells": 14794,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09570",
+      "positive_cells": 9604,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09013",
+      "positive_cells": 19960,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_02091",
+      "positive_cells": 3576,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07490",
+      "positive_cells": 3226,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09564",
+      "positive_cells": 3674,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08587",
+      "positive_cells": 1506,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_05617",
+      "positive_cells": 8785,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08675",
+      "positive_cells": 17836,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07581",
+      "positive_cells": 4475,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 3.91155481338501e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10354",
+      "positive_cells": 4487,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_03357",
+      "positive_cells": 8365,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10152",
+      "positive_cells": 2995,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07601",
+      "positive_cells": 5428,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08341",
+      "positive_cells": 4667,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07108",
+      "positive_cells": 6451,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10533",
+      "positive_cells": 5259,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09129",
+      "positive_cells": 2049,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07631",
+      "positive_cells": 4875,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07881",
+      "positive_cells": 3871,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08433",
+      "positive_cells": 3311,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.284083843231201e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_10065",
+      "positive_cells": 3159,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08419",
+      "positive_cells": 1913,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 3.725290298461914e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07996",
+      "positive_cells": 4549,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09710",
+      "positive_cells": 5589,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_09834",
+      "positive_cells": 3585,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_08686",
+      "positive_cells": 1395,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 3.91155481338501e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    },
+    {
+      "unit_key": "IND_FUA_07617",
+      "positive_cells": 32775,
+      "joint_weight_max_absolute_error": 0.0,
+      "fraction_partition_max_absolute_error": 4.470348358154297e-08,
+      "g_new_numerator_absolute_error": 0.0,
+      "aligned_grid_matches_ghsl": true,
+      "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+      "passed": true
+    }
+  ],
+  "raw_source_checks": [
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_02091_GLADv2_2015_40N_070E_r23106c18401_h1047w1566_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_02091_GLADv2_2020_40N_070E_r23106c18401_h1047w1566_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_03357_GLADv2_2015_40N_070E_r28687c18529_h1007w1995_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_03357_GLADv2_2020_40N_070E_r28687c18529_h1007w1995_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_03722_GLADv2_2015_30N_070E_r30514c2613_h705w1146_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_03722_GLADv2_2020_30N_070E_r30514c2613_h705w1146_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_04396_GLADv2_2015_40N_070E_r32998c18562_h899w1909_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_04396_GLADv2_2020_40N_070E_r32998c18562_h899w1909_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_05324_GLADv2_2015_30N_070E_r14353c11414_h1185w1362_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_05324_GLADv2_2020_30N_070E_r14353c11414_h1185w1362_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_05617_GLADv2_2015_40N_070E_r34167c21486_h932w1701_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_05617_GLADv2_2020_40N_070E_r34167c21486_h932w1701_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_05991_GLADv2_2015_30N_070E_r26843c9209_h1841w2384_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_05991_GLADv2_2020_30N_070E_r26843c9209_h1841w2384_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06065_GLADv2_2015_40N_070E_r35849c22550_h1103w2302_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06065_GLADv2_2020_40N_070E_r35849c22550_h1103w2302_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06611_GLADv2_2015_30N_070E_r34608c10430_h1068w1789_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06611_GLADv2_2020_30N_070E_r34608c10430_h1068w1789_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06651_GLADv2_2015_30N_070E_r30080c11757_h1338w1694_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06651_GLADv2_2020_30N_070E_r30080c11757_h1338w1694_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06781_GLADv2_2015_40N_070E_r36604c25636_h1204w2702_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_06781_GLADv2_2020_40N_070E_r36604c25636_h1204w2702_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07108_GLADv2_2015_30N_070E_r37995c11005_h1364w1565_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07108_GLADv2_2020_30N_070E_r37995c11005_h1364w1565_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07139_GLADv2_2015_20N_070E_r1937c10849_h766w1003_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07139_GLADv2_2020_20N_070E_r1937c10849_h766w1003_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07163_GLADv2_2015_20N_070E_r2334c10609_h2320w3077_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07163_GLADv2_2020_20N_070E_r2334c10609_h2320w3077_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07320_GLADv2_2015_30N_070E_r11651c22157_h1593w2165_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07320_GLADv2_2020_30N_070E_r11651c22157_h1593w2165_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07466_GLADv2_2015_30N_070E_r3200c25970_h3848w6489_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07466_GLADv2_2020_30N_070E_r3200c25970_h3848w6489_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07490_GLADv2_2015_30N_070E_r0c29626_h476w1219_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07490_GLADv2_2015_40N_070E_r39856c29626_h144w1219_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07490_GLADv2_2020_30N_070E_r0c29626_h476w1219_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07490_GLADv2_2020_40N_070E_r39856c29626_h144w1219_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07499_GLADv2_2015_20N_070E_r0c14394_h552w1528_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07499_GLADv2_2015_30N_070E_r39586c14394_h414w1528_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07499_GLADv2_2020_20N_070E_r0c14394_h552w1528_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07499_GLADv2_2020_30N_070E_r39586c14394_h414w1528_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07581_GLADv2_2015_40N_070E_r38385c31403_h860w1565_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07581_GLADv2_2020_40N_070E_r38385c31403_h860w1565_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07601_GLADv2_2015_30N_070E_r18933c22702_h879w1318_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07601_GLADv2_2020_30N_070E_r18933c22702_h879w1318_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07617_GLADv2_2015_20N_070E_r4483c13959_h2317w3100_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07617_GLADv2_2020_20N_070E_r4483c13959_h2317w3100_native_20261005_retry_1791132840815469800.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07631_GLADv2_2015_30N_070E_r0c31849_h476w1736_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07631_GLADv2_2015_40N_070E_r39343c31849_h657w1736_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07631_GLADv2_2020_30N_070E_r0c31849_h476w1736_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07631_GLADv2_2020_40N_070E_r39343c31849_h657w1736_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07643_GLADv2_2015_30N_070E_r3404c29837_h1129w1875_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07643_GLADv2_2020_30N_070E_r3404c29837_h1129w1875_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07839_GLADv2_2015_30N_070E_r28646c22438_h1373w1899_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07839_GLADv2_2020_30N_070E_r28646c22438_h1373w1899_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07881_GLADv2_2015_20N_070E_r12626c16453_h1124w1093_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07881_GLADv2_2020_20N_070E_r12626c16453_h1124w1093_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07895_GLADv2_2015_30N_070E_r7857c31697_h853w1506_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07895_GLADv2_2020_30N_070E_r7857c31697_h853w1506_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07933_GLADv2_2015_30N_070E_r4289c33915_h788w2106_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07933_GLADv2_2020_30N_070E_r4289c33915_h788w2106_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07957_GLADv2_2015_30N_070E_r10771c30762_h1257w2006_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07957_GLADv2_2020_30N_070E_r10771c30762_h1257w2006_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07961_GLADv2_2015_20N_070E_r149c20681_h734w1297_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07961_GLADv2_2020_20N_070E_r149c20681_h734w1297_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07996_GLADv2_2015_20N_070E_r12297c18027_h696w830_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_07996_GLADv2_2020_20N_070E_r12297c18027_h696w830_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08144_GLADv2_2015_30N_070E_r14758c32133_h713w1025_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08144_GLADv2_2020_30N_070E_r14758c32133_h713w1025_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08224_GLADv2_2015_30N_070E_r6024c36664_h956w1830_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08224_GLADv2_2020_30N_070E_r6024c36664_h956w1830_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08258_GLADv2_2015_30N_070E_r26508c28752_h1041w1639_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08258_GLADv2_2020_30N_070E_r26508c28752_h1041w1639_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08319_GLADv2_2015_20N_070E_r27576c18688_h2226w1873_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08319_GLADv2_2020_20N_070E_r27576c18688_h2226w1873_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08341_GLADv2_2015_20N_070E_r9037c23079_h829w1001_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08341_GLADv2_2020_20N_070E_r9037c23079_h829w1001_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08419_GLADv2_2015_30N_070E_r10264c38104_h377w601_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08419_GLADv2_2020_30N_070E_r10264c38104_h377w601_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08433_GLADv2_2015_30N_070E_r8264c39128_h582w872_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08433_GLADv2_2015_30N_080E_r8264c0_h582w388_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08433_GLADv2_2020_30N_070E_r8264c39128_h582w872_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08433_GLADv2_2020_30N_080E_r8264c0_h582w388_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08497_GLADv2_2015_20N_070E_r31037c20194_h1735w2004_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08497_GLADv2_2020_20N_070E_r31037c20194_h1735w2004_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08587_GLADv2_2015_30N_080E_r10230c310_h377w516_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08587_GLADv2_2020_30N_080E_r10230c310_h377w516_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08595_GLADv2_2015_20N_070E_r32343c21502_h1798w1480_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08595_GLADv2_2020_20N_070E_r32343c21502_h1798w1480_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08673_GLADv2_2015_20N_070E_r34071c22378_h1895w2049_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08673_GLADv2_2020_20N_070E_r34071c22378_h1895w2049_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08674_GLADv2_2015_20N_070E_r35538c22958_h2415w3167_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08674_GLADv2_2020_20N_070E_r35538c22958_h2415w3167_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08675_GLADv2_2015_20N_070E_r34984c23593_h1471w1370_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08675_GLADv2_2020_20N_070E_r34984c23593_h1471w1370_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08686_GLADv2_2015_30N_080E_r7993c2847_h446w598_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08686_GLADv2_2020_30N_080E_r7993c2847_h446w598_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08722_GLADv2_2015_30N_070E_r13442c39900_h1422w100_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08722_GLADv2_2015_30N_080E_r13442c0_h1422w2528_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08722_GLADv2_2020_30N_070E_r13442c39900_h1422w100_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08722_GLADv2_2020_30N_080E_r13442c0_h1422w2528_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08848_GLADv2_2015_30N_080E_r11820c2709_h1593w2895_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08848_GLADv2_2020_30N_080E_r11820c2709_h1593w2895_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08896_GLADv2_2015_20N_070E_r30287c25853_h886w1176_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08896_GLADv2_2020_20N_070E_r30287c25853_h886w1176_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08900_GLADv2_2015_10N_070E_r0c23685_h980w2882_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08900_GLADv2_2015_20N_070E_r37850c23685_h2150w2882_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08900_GLADv2_2020_10N_070E_r0c23685_h980w2882_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08900_GLADv2_2020_20N_070E_r37850c23685_h2150w2882_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08952_GLADv2_2015_30N_070E_r34608c35346_h1434w1937_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08952_GLADv2_2020_30N_070E_r34608c35346_h1434w1937_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08997_GLADv2_2015_10N_070E_r2569c25219_h2280w2356_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_08997_GLADv2_2020_10N_070E_r2569c25219_h2280w2356_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09007_GLADv2_2015_30N_070E_r26776c39114_h940w886_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09007_GLADv2_2015_30N_080E_r26776c0_h940w390_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09007_GLADv2_2020_30N_070E_r26776c39114_h940w886_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09007_GLADv2_2020_30N_080E_r26776c0_h940w390_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09013_GLADv2_2015_10N_070E_r1040c25706_h1631w1116_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09013_GLADv2_2020_10N_070E_r1040c25706_h1631w1116_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09045_GLADv2_2015_20N_070E_r9268c32282_h2014w3087_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09045_GLADv2_2020_20N_070E_r9268c32282_h2014w3087_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09069_GLADv2_2015_20N_070E_r35310c27234_h1601w1675_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09069_GLADv2_2020_20N_070E_r35310c27234_h1601w1675_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09099_GLADv2_2015_20N_070E_r26889c28704_h2423w3553_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09099_GLADv2_2020_20N_070E_r26889c28704_h2423w3553_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09129_GLADv2_2015_30N_080E_r11177c7534_h445w720_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09129_GLADv2_2020_30N_080E_r11177c7534_h445w720_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09157_GLADv2_2015_10N_070E_r4779c26713_h1955w2258_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09157_GLADv2_2020_10N_070E_r4779c26713_h1955w2258_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09165_GLADv2_2015_20N_070E_r35114c28685_h1048w1185_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09165_GLADv2_2020_20N_070E_r35114c28685_h1048w1185_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09195_GLADv2_2015_30N_080E_r12530c7477_h647w1835_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09195_GLADv2_2020_30N_080E_r12530c7477_h647w1835_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09258_GLADv2_2015_30N_080E_r14792c7793_h477w895_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09258_GLADv2_2020_30N_080E_r14792c7793_h477w895_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09266_GLADv2_2015_20N_070E_r33875c30290_h1114w1526_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09266_GLADv2_2020_20N_070E_r33875c30290_h1114w1526_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09282_GLADv2_2015_30N_080E_r17958c6412_h846w1676_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09282_GLADv2_2020_30N_080E_r17958c6412_h846w1676_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09368_GLADv2_2015_20N_070E_r32767c31926_h1146w1862_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09368_GLADv2_2020_20N_070E_r32767c31926_h1146w1862_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09444_GLADv2_2015_10N_070E_r0c32018_h720w1047_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09444_GLADv2_2015_20N_070E_r39934c32018_h66w1047_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09444_GLADv2_2020_10N_070E_r0c32018_h720w1047_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09444_GLADv2_2020_20N_070E_r39934c32018_h66w1047_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09500_GLADv2_2015_30N_080E_r12530c12335_h883w2031_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09500_GLADv2_2020_30N_080E_r12530c12335_h883w2031_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09544_GLADv2_2015_20N_070E_r36417c34294_h755w1417_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09544_GLADv2_2020_20N_070E_r36417c34294_h755w1417_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09562_GLADv2_2015_30N_080E_r17924c10603_h1720w3113_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09562_GLADv2_2020_30N_080E_r17924c10603_h1720w3113_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09564_GLADv2_2015_30N_080E_r34874c4728_h636w1263_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09564_GLADv2_2020_30N_080E_r34874c4728_h636w1263_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09570_GLADv2_2015_20N_070E_r27902c36093_h920w1765_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09570_GLADv2_2020_20N_070E_r27902c36093_h920w1765_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09620_GLADv2_2015_30N_080E_r34342c5774_h1035w1526_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09620_GLADv2_2020_30N_080E_r34342c5774_h1035w1526_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09710_GLADv2_2015_30N_080E_r31247c7865_h771w1453_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09710_GLADv2_2020_30N_080E_r31247c7865_h771w1453_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09782_GLADv2_2015_30N_080E_r12868c15829_h950w2536_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09782_GLADv2_2020_30N_080E_r12868c15829_h950w2536_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09794_GLADv2_2015_20N_080E_r13679c1897_h860w1331_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09794_GLADv2_2020_20N_080E_r13679c1897_h860w1331_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09834_GLADv2_2015_20N_070E_r31853c38491_h821w1003_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09834_GLADv2_2020_20N_070E_r31853c38491_h821w1003_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09850_GLADv2_2015_20N_070E_r26824c39309_h2553w691_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09850_GLADv2_2015_20N_080E_r26824c0_h2553w1443_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09850_GLADv2_2020_20N_070E_r26824c39309_h2553w691_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_09850_GLADv2_2020_20N_080E_r26824c0_h2553w1443_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10007_GLADv2_2015_30N_080E_r14893c20356_h1286w2079_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10007_GLADv2_2020_30N_080E_r14893c20356_h1286w2079_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10017_GLADv2_2015_30N_080E_r17352c19437_h611w1932_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10017_GLADv2_2020_30N_080E_r17352c19437_h611w1932_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10065_GLADv2_2015_30N_080E_r20546c19520_h777w926_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10065_GLADv2_2020_30N_080E_r20546c19520_h777w926_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10142_GLADv2_2015_20N_080E_r8576c12111_h1092w1469_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10142_GLADv2_2020_20N_080E_r8576c12111_h1092w1469_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10152_GLADv2_2015_30N_080E_r17891c23467_h576w1789_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10152_GLADv2_2020_30N_080E_r17891c23467_h576w1789_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10168_GLADv2_2015_30N_080E_r26141c20390_h1007w1582_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10168_GLADv2_2020_30N_080E_r26141c20390_h1007w1582_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10243_GLADv2_2015_30N_080E_r24401c24202_h1009w2611_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10243_GLADv2_2020_30N_080E_r24401c24202_h1009w2611_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10285_GLADv2_2015_30N_080E_r28479c24070_h639w1219_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10285_GLADv2_2020_30N_080E_r28479c24070_h639w1219_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10313_GLADv2_2015_30N_080E_r24401c26243_h1377w3017_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10313_GLADv2_2020_30N_080E_r24401c26243_h1377w3017_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10354_GLADv2_2015_30N_080E_r38326c22810_h1000w1010_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10354_GLADv2_2020_30N_080E_r38326c22810_h1000w1010_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10432_GLADv2_2015_30N_080E_r22961c32179_h1612w1620_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10432_GLADv2_2020_30N_080E_r22961c32179_h1612w1620_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10441_GLADv2_2015_30N_080E_r29680c30247_h1772w2161_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10441_GLADv2_2020_30N_080E_r29680c30247_h1772w2161_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10452_GLADv2_2015_30N_080E_r27477c31036_h3775w5242_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10452_GLADv2_2020_30N_080E_r27477c31036_h3775w5242_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10453_GLADv2_2015_30N_080E_r30280c32263_h1805w2045_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10453_GLADv2_2020_30N_080E_r30280c32263_h1805w2045_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10496_GLADv2_2015_30N_090E_r15061c5641_h747w2201_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10496_GLADv2_2020_30N_090E_r15061c5641_h747w2201_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10533_GLADv2_2015_30N_090E_r20243c14687_h1583w2141_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    },
+    {
+      "file": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\GLAD_v2_native_windows_20261005\\IND_FUA_10533_GLADv2_2020_30N_090E_r20243c14687_h1583w2141_native_20261005.tif",
+      "sha256_matches": true,
+      "readonly": true,
+      "byte_ranges_advertised": true
+    }
+  ],
+  "all_passed": true,
+  "interpretation": "Internal computation/provenance audit, not mapping accuracy validation"
+}

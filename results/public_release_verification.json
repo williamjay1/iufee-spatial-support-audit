@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-04T17:17:25.207112+00:00",
+  "doi_requested": "https://doi.org/10.5281/zenodo.21916290",
+  "doi_http_status": 200,
+  "resolved_url": "https://zenodo.org/records/21916290",
+  "api_http_status": 200,
+  "title": "India Urban Flood Exposure Evidence (IUFEE) v1.2",
+  "public_doi_verified": true,
+  "raw_metadata_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\release_metadata_20261005\\Zenodo_21916290_api_20261004T171724729179Z.json",
+  "raw_metadata_sha256": "5a8617b6fa3dfdffef6fe7c3825d5f31c748506865194399606d82418082831e",
+  "revision_outputs_published": false
+}

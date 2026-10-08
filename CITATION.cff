@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "IUFEE spatial support audit: revision analysis code and derived results"
+authors:
+  - family-names: Zeng
+    given-names: Zhuo
+  - family-names: Tian
+    given-names: Yushi
+  - family-names: Zhang
+    given-names: Junjie
+year: 2026
+license: MIT

@@ -1,0 +1,192 @@
+{
+  "parent_map": "MNR Asia GS(2023)2761 EPS converted by local Ghostscript without reprojection",
+  "pdf_coordinate_origin": "top left, points",
+  "gcp": [
+    [
+      60.0,
+      0.0,
+      472.639984,
+      1105.540039
+    ],
+    [
+      60.0,
+      15.0,
+      501.14801,
+      925.322021
+    ],
+    [
+      60.0,
+      30.0,
+      546.152039,
+      743.468018
+    ],
+    [
+      60.0,
+      45.0,
+      606.169006,
+      563.117004
+    ],
+    [
+      75.0,
+      0.0,
+      666.215027,
+      1144.890015
+    ],
+    [
+      75.0,
+      15.0,
+      680.195007,
+      965.831055
+    ],
+    [
+      75.0,
+      30.0,
+      702.565002,
+      782.265991
+    ],
+    [
+      75.0,
+      45.0,
+      732.666992,
+      597.209045
+    ],
+    [
+      90.0,
+      0.0,
+      864.580994,
+      1157.969971
+    ],
+    [
+      90.0,
+      15.0,
+      864.580994,
+      979.307007
+    ],
+    [
+      90.0,
+      30.0,
+      864.580994,
+      795.205994
+    ],
+    [
+      90.0,
+      45.0,
+      864.580994,
+      608.619019
+    ],
+    [
+      105.0,
+      0.0,
+      1062.950073,
+      1144.890015
+    ],
+    [
+      105.0,
+      15.0,
+      1048.970093,
+      965.831055
+    ],
+    [
+      105.0,
+      30.0,
+      1026.599976,
+      782.265991
+    ],
+    [
+      105.0,
+      45.0,
+      996.495056,
+      597.209045
+    ]
+  ],
+  "method": "Empirical Lambert azimuthal equal-area fit to the official graticule; transforms study-point coordinates only. This is an inferred display registration, not an officially declared CRS.",
+  "registration": {
+    "latitude_origin": 40.00152972462498,
+    "longitude_origin": 90,
+    "scale_pdf_points_per_metre": 0.00011217678686771923,
+    "origin_x_pt": 864.5817009997364,
+    "origin_y_pt": 670.8821754738781
+  },
+  "fit_rmse_pt": 0.0021163212088208417,
+  "fit_max_error_pt": 0.0037427716400585645,
+  "holdout_indices": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "holdout_max_error_pt": 0.005132838526793271,
+  "leave_one_control_out_rmse_pt": 0.002477421382492611,
+  "leave_one_control_out_max_error_pt": 0.005074511065713,
+  "candidate_projection_fits": [
+    {
+      "projection": "bonne",
+      "parameters": [
+        36.79802967015363
+      ],
+      "rmse_pt": 8.168284600561048,
+      "max_error_pt": 21.71592969929683
+    },
+    {
+      "projection": "poly",
+      "parameters": [
+        54.9997243621418
+      ],
+      "rmse_pt": 16.28439699036868,
+      "max_error_pt": 50.02033843095033
+    },
+    {
+      "projection": "aeqd",
+      "parameters": [
+        39.67166661449891
+      ],
+      "rmse_pt": 2.920950191682285,
+      "max_error_pt": 6.984412455071276
+    },
+    {
+      "projection": "laea",
+      "parameters": [
+        40.00152972483769
+      ],
+      "rmse_pt": 0.002116321208763451,
+      "max_error_pt": 0.0037427715732723803
+    },
+    {
+      "projection": "stere",
+      "parameters": [
+        33.22989406706677
+      ],
+      "rmse_pt": 7.821701285461782,
+      "max_error_pt": 21.121552013297542
+    },
+    {
+      "projection": "eqdc",
+      "parameters": [
+        17.755657397097547,
+        40.690241316171004
+      ],
+      "rmse_pt": 6.284862447775928,
+      "max_error_pt": 11.789922355782188
+    },
+    {
+      "projection": "lcc",
+      "parameters": [
+        23.938016497358486,
+        31.548587401570053
+      ],
+      "rmse_pt": 7.600584384677084,
+      "max_error_pt": 12.381028184307477
+    }
+  ],
+  "use_boundary": "Official national-boundary and coastline vector paths are extracted and rendered with new cartographic styling; original line/Bezier control vertices are retained without basemap reprojection. Registration uncertainty concerns the overlay only; not a map-accuracy estimate or a scientific calculation.",
+  "coordinate_domain": {
+    "lon": [
+      60,
+      105
+    ],
+    "lat": [
+      0,
+      45
+    ]
+  }
+}

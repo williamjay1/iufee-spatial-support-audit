@@ -1,0 +1,5 @@
+MiKTeX GPL Ghostscript 9.25 (2018-09-13)
+Copyright (C) 2018 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Querying operating system for font files...
+

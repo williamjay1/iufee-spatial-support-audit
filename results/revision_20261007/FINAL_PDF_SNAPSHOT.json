@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-10-07T15:29:06.143480+00:00",
+  "pdfs": {
+    "IUFEE_redeveloped": {
+      "pages": 10,
+      "sha256": "126877848c6341f634fbd40c19e4692be6ea3f1052a7fbe8c5629b7ad59de798"
+    },
+    "IUFEE_supplement": {
+      "pages": 20,
+      "sha256": "2973490f764dbf477898887ac0016a01625a97cf1011954c360db73da5684475"
+    },
+    "Revision_memorandum": {
+      "pages": 11,
+      "sha256": "3d89645a74b3b95c285b44a5235a88d6d232106818f9c345df0a732c5fa82b0b"
+    }
+  }
+}

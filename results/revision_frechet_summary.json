@@ -1,0 +1,35 @@
+{
+  "product_bound_violation_cells_tolerance_1e_7": 0,
+  "zero_denominator_feasible_city_count": 0,
+  "no_positive_denominator_feasible_city_count": 0,
+  "identified_intersection_city_count": 0,
+  "collapsed_depth_compatibility_interval_city_count_tolerance_1e_10_m": 6,
+  "depth_width_at_least_0_05_m_city_count": 44,
+  "depth_width_median_m": 0.04821622822554111,
+  "depth_width_q25_m": 0.0034661470631317847,
+  "depth_width_q75_m": 0.11842463588384111,
+  "depth_width_max_m": 1.9802120321133747,
+  "depth_width_max_city": "Srinagar",
+  "total_product_denominator_km2": 90.24392312804441,
+  "total_lower_denominator_km2": 79.852619583488,
+  "total_upper_denominator_km2": 99.60491083111077,
+  "lower_endpoint_scenario_rank_diagnostics_vs_product": {
+    "paired_city_count": 91,
+    "spearman_vs_baseline": 0.9943605878370303,
+    "median_absolute_delta_m": 0.0031884150375715292,
+    "max_absolute_delta_m": 0.29108517898473674,
+    "median_signed_delta_m": 0.0,
+    "top10_overlap_count": 8,
+    "top10_overlap_fraction": 0.8
+  },
+  "upper_endpoint_scenario_rank_diagnostics_vs_product": {
+    "paired_city_count": 91,
+    "spearman_vs_baseline": 0.998454737345175,
+    "median_absolute_delta_m": 0.0024120861227119837,
+    "max_absolute_delta_m": 0.06941385944269207,
+    "median_signed_delta_m": 0.0,
+    "top10_overlap_count": 9,
+    "top10_overlap_fraction": 0.9
+  },
+  "interpretation": "Marginal compatibility bounds, conditional on the retained source fractions; not confidence intervals, error models, or validation. gL and gU city depths are endpoint scenarios, not ratio extrema. The product is an arithmetic convention, not an identified spatial intersection."
+}

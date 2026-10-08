@@ -1,0 +1,33 @@
+{
+  "title": "IUFEE spatial support audit: revision analysis code and derived results",
+  "description": "Analysis code and derived tabular results for a controlled comparison of a joint settlement overlay with multiplication of its marginal fractions across 91 Indian functional urban areas and 1,259,886 positive building surface difference cells, including paired GLAD class allocation, sensitivity alternatives and source review queues.",
+  "creators": [
+    {
+      "name": "Zeng, Zhuo"
+    },
+    {
+      "name": "Tian, Yushi"
+    },
+    {
+      "name": "Zhang, Junjie"
+    }
+  ],
+  "license": "mit-license",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21916290",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ],
+  "keywords": [
+    "urban change exposure",
+    "spatial support",
+    "settlement mapping",
+    "fluvial hazard",
+    "reproducibility",
+    "India"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "checked_date": "2026-10-07",
+  "bibtex_key": "TrentoOliveira2026",
+  "doi": "10.1038/s42949-026-00428-8",
+  "title": "Exposed yet unmapped: evidence of differential flood exposure in deprived urban areas using citizen science",
+  "journal": "npj Urban Sustainability",
+  "year": 2026,
+  "volume": null,
+  "issue": null,
+  "article_number": null,
+  "pages": null,
+  "accepted_date": "2026-06-15",
+  "published_online_date": "2026-06-22",
+  "publication_status": "Online publication confirmed; volume and article number not assigned in the inspected official citation or Crossref record.",
+  "official_recommended_citation": "Trento Oliveira, L., Campomanes, F.V., Dijkstra, A.M. et al. Exposed yet unmapped: evidence of differential flood exposure in deprived urban areas using citizen science. npj Urban Sustain (2026). https://doi.org/10.1038/s42949-026-00428-8",
+  "crossref": {
+    "doi": "10.1038/s42949-026-00428-8",
+    "type": "journal-article",
+    "volume": null,
+    "issue": null,
+    "article-number": null,
+    "page": null,
+    "published_date_parts": [
+      [
+        2026,
+        6,
+        22
+      ]
+    ],
+    "published_online_date_parts": [
+      [
+        2026,
+        6,
+        22
+      ]
+    ],
+    "published_print": null,
+    "issued_date_parts": [
+      [
+        2026,
+        6,
+        22
+      ]
+    ],
+    "created_date_time": "2026-06-22T13:06:20Z",
+    "deposited_date_time": "2026-06-22T13:06:21Z"
+  },
+  "sources": [
+    {
+      "url": "https://www.nature.com/articles/s42949-026-00428-8",
+      "access": "Official Nature page read through agent-reach Jina Reader. Direct web open redirected to idp.nature.com.",
+      "locators": [
+        "Cite this article",
+        "Accepted: 15 June 2026",
+        "Published: 22 June 2026"
+      ]
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038/s42949-026-00428-8",
+      "access": "Crossref JSON retrieved directly using Invoke-RestMethod."
+    }
+  ],
+  "action": "Keep volume/article number/pages omitted in the bibliography. Year 2026 and DOI are verified; published-online date may be added if the bibliography style requires it. Do not infer volume or article number from the journal year or DOI.",
+  "scope": "Only this reference was checked; manuscript and bibliography were not modified."
+}

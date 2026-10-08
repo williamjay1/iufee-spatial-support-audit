@@ -1,0 +1,4 @@
+city,unit_key,original_top10_cells,top10_g_h_proxy_m3,city_total_g_h_proxy_m3,top10_g_h_fraction_of_city_total,exact_top10_cell_set_matches,matches_existing_diagnostic_coverage
+Delhi,IND_FUA_07466,10,133610.78844428062,15355097.061065104,0.008701396540375416,True,True
+Guwahati,IND_FUA_10496,10,121249.35944604874,688784.4935849258,0.1760338111199057,True,True
+Sultanpur,IND_FUA_09258,10,169003.30864572525,1066795.057562491,0.15842153321546049,True,True

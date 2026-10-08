@@ -1,0 +1,116 @@
+{
+  "all_passed": true,
+  "scope": "Cartographic correction and external annotation layout only; manuscript scientific content unchanged.",
+  "official_eps_sha256": "455a607155b283145149a21c98d2320c4ef24f805d0c4a0e41e1a0ef0b2ad8c3",
+  "original_three_layer_records_exactly_equal": true,
+  "regional_path_exact": true,
+  "ceasefire_subpaths_exact": true,
+  "ceasefire_independent_movetos": 40,
+  "figure_pdf_sha256": "1783938205b5c3e49810916d3e608c07630c3c101694f0c9c430869324c25e55",
+  "vector_json_sha256": "0a4e7fc724acdd01e16023ed114eb437dd9c478ca12c96486bfe8e8566e55a1c",
+  "main_pdf_before_sha256": "b55e57c427b0f0ae2d5935b1a89e1c3dfd7d67fdc7e575c1bf8dd354f25daadb",
+  "main_pdf_after_sha256": "71bddb08600d635de88631a4aa9083bb77b0c62b8042df06d8cd772a29b106f4",
+  "tex_only_change": "One figure-caption sentence identifying the restored regional and ceasefire geometry",
+  "main_tex_unchanged_since_label_request": true,
+  "main_pdf_before_label_request_sha256": "8591e1e4dad4b2af3fc09c6247c40b65daac8382238fd75364c74316abc84a5c",
+  "label_placement": {
+    "map_bbox_figure_pt": [
+      53.94709760117194,
+      25.483464566929133,
+      159.33164255630837,
+      146.32440944881887
+    ],
+    "annotations": {
+      "Delhi": {
+        "side": "left",
+        "text_bbox_figure_pt": [
+          35.60709760117194,
+          121.5736132428334,
+          51.44709760117194,
+          128.3267577740834
+        ],
+        "gap_pt": 2.5000000000000044,
+        "leader_length_pt": 30.14643455249277,
+        "outside_map": true,
+        "leader_text_intersections": []
+      },
+      "Guwahati": {
+        "side": "right",
+        "text_bbox_figure_pt": [
+          161.8316425563083,
+          95.19689821059524,
+          191.59164255630833,
+          101.95004274184522
+        ],
+        "gap_pt": 2.4999999999999636,
+        "leader_length_pt": 24.979744589773734,
+        "outside_map": true,
+        "leader_text_intersections": []
+      },
+      "Sultanpur": {
+        "side": "left",
+        "text_bbox_figure_pt": [
+          21.68709760117194,
+          75.5455320792268,
+          51.44709760117194,
+          82.29867661047679
+        ],
+        "gap_pt": 2.5000000000000044,
+        "leader_length_pt": 51.87128199553802,
+        "outside_map": true,
+        "leader_text_intersections": []
+      },
+      "China": {
+        "side": "right",
+        "text_bbox_figure_pt": [
+          161.8316425563083,
+          131.64836089679943,
+          180.07164255630832,
+          138.40150542804946
+        ],
+        "gap_pt": 2.4999999999999636,
+        "leader_length_pt": 38.00860967130755,
+        "outside_map": true,
+        "leader_text_intersections": []
+      },
+      "Kashmir region": {
+        "side": "left",
+        "text_bbox_figure_pt": [
+          25.047097601171938,
+          130.93426127454907,
+          51.44709760117194,
+          146.53918314954907
+        ],
+        "gap_pt": 2.5000000000000044,
+        "leader_length_pt": 24.04043338820042,
+        "outside_map": true,
+        "leader_text_intersections": []
+      }
+    },
+    "all_labels_outside_map": true,
+    "minimum_required_gap_pt": 2,
+    "minimum_required_leader_length_pt": 16,
+    "minimum_observed_gap_pt": 2.4999999999999636,
+    "minimum_observed_leader_length_pt": 24.04043338820042,
+    "transparent_label_background": true
+  },
+  "actual_pdf_label_gap_pt": {
+    "Delhi": 2.5129812376465495,
+    "Guwahati": 2.499991965176008,
+    "Sultanpur": 2.5023992674317057,
+    "China": 2.499991965176008,
+    "Kashmir region": 2.500430883642643
+  },
+  "displayed_study_points": 91,
+  "main_pages": 5,
+  "visual_review": "PASS: root inspected the official Kashmir crop, current whole-figure preview and all five recompiled main pages. Delhi, Sultanpur and Kashmir region are in left white space; Guwahati and China are in right white space, with transparent labels and longer leaders. Every actual PDF word boundary clears the map frame by at least 2 pt. Regional dashes and original ceasefire cross symbols remain distinct; no text overlap, clipping or leader crossing through words observed.",
+  "figure_preview_sha256": "e2f7abb46bdacced0cc42ee29789d04fafe8bf8bbb6a4d239c4a3dbd1da60e62",
+  "main_page_render_sha256": {
+    "1": "d04aff7044223537509ee1749d86dc08f90b48a8c58e599f00e51680ddf58ec1",
+    "2": "487fb61e0b2fe813d245bccae2d01187a98a0593e340d7f83ee97795dcead869",
+    "3": "3cf7310a55e947541062171183616d1e1000b7cc3d3588fd9bc2f644282a19ed",
+    "4": "2bfa11e9729fa2eac72d687d079b63d0aee6e18c6b21ffbb0cb487f9c7b7e0b4",
+    "5": "caec364bee47e192dacdc2f4e6d6c7a82877f26e5d1c8f0054aaf82109b21025"
+  },
+  "other_four_pdfs_unchanged": true
+}

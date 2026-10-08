@@ -1,0 +1,191 @@
+{
+  "WSF2019_v1_76_10": {
+    "item_id": "WSF2019_v1_76_10",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_76_10.tif",
+    "original_current_sha256": "DE8ADBBB152D236228930AEE2A488C01E60D6B7EE56C136D218CB6DA29FCCD32",
+    "old_audit_sha256": "DE8ADBBB152D236228930AEE2A488C01E60D6B7EE56C136D218CB6DA29FCCD32",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_76_10_refetch_20261005_1791134833100802900.tif",
+    "recovered_sha256": "DE8ADBBB152D236228930AEE2A488C01E60D6B7EE56C136D218CB6DA29FCCD32",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 11889129,
+    "source_url": "https://download.geoservice.dlr.de/WSF2019/files/WSF2019_v1_76_10.tif",
+    "http_headers": {
+      "etag": "\"62fb8e97-b569e9\"",
+      "last-modified": "Tue, 16 Aug 2022 12:33:27 GMT",
+      "content-length": "11889129",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:27:18.414790+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSF2019_v1_78_22": {
+    "item_id": "WSF2019_v1_78_22",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_22.tif",
+    "original_current_sha256": "F0689F1268C75DD663C821C59864928FAE47257E5E464ADB196FD7229D9032D8",
+    "old_audit_sha256": "F0689F1268C75DD663C821C59864928FAE47257E5E464ADB196FD7229D9032D8",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_78_22_refetch_20261005_1791134838415792700.tif",
+    "recovered_sha256": "F0689F1268C75DD663C821C59864928FAE47257E5E464ADB196FD7229D9032D8",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 5664936,
+    "source_url": "https://download.geoservice.dlr.de/WSF2019/files/WSF2019_v1_78_22.tif",
+    "http_headers": {
+      "etag": "\"62fb852e-5670a8\"",
+      "last-modified": "Tue, 16 Aug 2022 11:53:18 GMT",
+      "content-length": "5664936",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:27:22.033924+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSF2019_v1_78_28": {
+    "item_id": "WSF2019_v1_78_28",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_28.tif",
+    "original_current_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+    "old_audit_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_78_28_refetch_20261005_1791134842034922600.tif",
+    "recovered_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 8825497,
+    "source_url": "https://download.geoservice.dlr.de/WSF2019/files/WSF2019_v1_78_28.tif",
+    "http_headers": {
+      "etag": "\"62fb8e57-86aa99\"",
+      "last-modified": "Tue, 16 Aug 2022 12:32:23 GMT",
+      "content-length": "8825497",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:27:26.460785+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSF2019_v1_84_26": {
+    "item_id": "WSF2019_v1_84_26",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_84_26.tif",
+    "original_current_sha256": "E197AB850232E14A8EB766B07388E0A7EC290D5A6076CCCFAAC9102D7E2989F6",
+    "old_audit_sha256": "E197AB850232E14A8EB766B07388E0A7EC290D5A6076CCCFAAC9102D7E2989F6",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_84_26_refetch_20261005_1791134846461834000.tif",
+    "recovered_sha256": "E197AB850232E14A8EB766B07388E0A7EC290D5A6076CCCFAAC9102D7E2989F6",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 12242287,
+    "source_url": "https://download.geoservice.dlr.de/WSF2019/files/WSF2019_v1_84_26.tif",
+    "http_headers": {
+      "etag": "\"62fb9440-bacd6f\"",
+      "last-modified": "Tue, 16 Aug 2022 12:57:36 GMT",
+      "content-length": "12242287",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:27:31.153718+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSFevolution_v1_74_30": {
+    "item_id": "WSFevolution_v1_74_30",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_30.tif",
+    "original_current_sha256": "1F22CDF5E936E5C49A0F2B71219C218C20FB6BCFF62B34E12A6BF0A42468116D",
+    "old_audit_sha256": "1F22CDF5E936E5C49A0F2B71219C218C20FB6BCFF62B34E12A6BF0A42468116D",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSFevolution_v1_74_30_refetch_20261005_1791134851154795600.tif",
+    "recovered_sha256": "1F22CDF5E936E5C49A0F2B71219C218C20FB6BCFF62B34E12A6BF0A42468116D",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 6163874,
+    "source_url": "https://download.geoservice.dlr.de/WSF_EVO/files/WSFevolution_v1_74_30/WSFevolution_v1_74_30.tif",
+    "http_headers": {
+      "etag": "\"632b8004-5e0da2\"",
+      "last-modified": "Wed, 21 Sep 2022 21:20:04 GMT",
+      "content-length": "6163874",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:27:34.993082+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSFevolution_v1_84_22": {
+    "item_id": "WSFevolution_v1_84_22",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_84_22.tif",
+    "original_current_sha256": "30CD11721271E19F92673283B8B16F0601DF6C127DD686207C651EAF5AC2EB95",
+    "old_audit_sha256": "30CD11721271E19F92673283B8B16F0601DF6C127DD686207C651EAF5AC2EB95",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSFevolution_v1_84_22_refetch_20261005_1791134854994078100.tif",
+    "recovered_sha256": "30CD11721271E19F92673283B8B16F0601DF6C127DD686207C651EAF5AC2EB95",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 2261684,
+    "source_url": "https://download.geoservice.dlr.de/WSF_EVO/files/WSFevolution_v1_84_22/WSFevolution_v1_84_22.tif",
+    "http_headers": {
+      "etag": "\"632b78c3-2282b4\"",
+      "last-modified": "Wed, 21 Sep 2022 20:49:07 GMT",
+      "content-length": "2261684",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:27:37.781692+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSF2019_v1_80_24": {
+    "item_id": "WSF2019_v1_80_24",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_80_24.tif",
+    "original_current_sha256": "7DDBD95837137756A2E475F7AB197998F1F18BD94F22C920E14F543871E4EFDE",
+    "old_audit_sha256": "DB757592800B1433B76F9083865AD366B78EDF54832B1B540F5E790053D1D0D9",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_80_24_refetch_20261005_1791135598009020200.tif",
+    "recovered_sha256": "DB757592800B1433B76F9083865AD366B78EDF54832B1B540F5E790053D1D0D9",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 8743744,
+    "source_url": "https://download.geoservice.dlr.de/WSF2019/files/WSF2019_v1_80_24.tif",
+    "http_headers": {
+      "etag": "\"62fb8036-856b40\"",
+      "last-modified": "Tue, 16 Aug 2022 11:32:06 GMT",
+      "content-length": "8743744",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:40:02.688957+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSFevolution_v1_74_26": {
+    "item_id": "WSFevolution_v1_74_26",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_74_26.tif",
+    "original_current_sha256": "ABDBA1408321A18839BB1700BC0B1BBCD393661A5EA6C955EBBC189ECA9A7BA7",
+    "old_audit_sha256": "32F704C8D22709AC2FAE32A217159D09942AC0A3C610BDD1B6681C298AF487F1",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSFevolution_v1_74_26_refetch_20261005_1791135602699435300.tif",
+    "recovered_sha256": "32F704C8D22709AC2FAE32A217159D09942AC0A3C610BDD1B6681C298AF487F1",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 3382003,
+    "source_url": "https://download.geoservice.dlr.de/WSF_EVO/files/WSFevolution_v1_74_26/WSFevolution_v1_74_26.tif",
+    "http_headers": {
+      "etag": "\"632b83e6-339af3\"",
+      "last-modified": "Wed, 21 Sep 2022 21:36:38 GMT",
+      "content-length": "3382003",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:40:05.791018+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  },
+  "WSFevolution_v1_82_24": {
+    "item_id": "WSFevolution_v1_82_24",
+    "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_82_24.tif",
+    "original_current_sha256": "40315ED975B07AB5EBF5C1EFC25DB79F7ADECD4FC25287231D51573DEE64D0CD",
+    "old_audit_sha256": "F794E35E286B62243886D9F87F0B09BA50B4BAEA4310637961FA1864A6C1B578",
+    "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSFevolution_v1_82_24_refetch_20261005_1791135605797312600.tif",
+    "recovered_sha256": "F794E35E286B62243886D9F87F0B09BA50B4BAEA4310637961FA1864A6C1B578",
+    "recovered_sha256_matches_old_audit": true,
+    "recovered_bytes": 3132689,
+    "source_url": "https://download.geoservice.dlr.de/WSF_EVO/files/WSFevolution_v1_82_24/WSFevolution_v1_82_24.tif",
+    "http_headers": {
+      "etag": "\"632b7699-2fcd11\"",
+      "last-modified": "Wed, 21 Sep 2022 20:39:53 GMT",
+      "content-length": "3132689",
+      "content-type": "image/tiff"
+    },
+    "retrieved_utc": "2026-10-04T17:40:09.226179+00:00",
+    "collection_license": "CC-BY-4.0",
+    "original_preserved": true,
+    "recovered_file_readonly": true
+  }
+}

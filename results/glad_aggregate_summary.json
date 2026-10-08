@@ -1,0 +1,53 @@
+{
+  "completed_cities": 91,
+  "expected_cities": 91,
+  "built_code": 250,
+  "nodata_code": 255,
+  "formula_version": "GLADpair_v2_joint_s_endpoint_support",
+  "class_order": [
+    "new_built",
+    "stable_built",
+    "absent_both",
+    "built_loss",
+    "missing_pair"
+  ],
+  "date_utc": "2026-10-04T16:55:02.455168+00:00",
+  "ghsl_added_surface_m2": 400535818.0,
+  "joint_screened_surface_m2": 90243923.12804441,
+  "positive_cells": 1259886,
+  "raw_window_files": 200,
+  "raw_window_total_bytes": 96224736,
+  "g_covered_new_built_fraction": 0.147201182667213,
+  "joint_covered_new_built_fraction": 0.18760250941413348,
+  "g_covered_stable_built_fraction": 0.6261143041543703,
+  "joint_covered_stable_built_fraction": 0.7074192451588196,
+  "g_covered_absent_both_fraction": 0.22666636129824774,
+  "joint_covered_absent_both_fraction": 0.10495692026193931,
+  "g_covered_built_loss_fraction": 1.8151880541477657e-05,
+  "joint_covered_built_loss_fraction": 2.1325150160654608e-05,
+  "pair_coverage_g_weighted": 1.0,
+  "city_g_new_fraction_quantiles": {
+    "0": 0.02353385218687405,
+    "0.1": 0.05805436032795159,
+    "0.25": 0.08064955300434053,
+    "0.5": 0.12683670866156083,
+    "0.75": 0.1899108975307769,
+    "0.9": 0.23307580943380254,
+    "1": 0.30980709562942704
+  },
+  "city_joint_new_fraction_quantiles": {
+    "0": 0.018346634646579,
+    "0.1": 0.04883693198740766,
+    "0.25": 0.08548793118293932,
+    "0.5": 0.1513472887017083,
+    "0.75": 0.2310601159460291,
+    "0.9": 0.3223897567392686,
+    "1": 0.4315685127515475
+  },
+  "cities_joint_new_greater_than_g_new": 64,
+  "positive_cellarea_new_fraction_covered": 0.09970124022876473,
+  "zero_change_cellarea_new_fraction_covered": 0.03275380770429097,
+  "pooled_new_class_enrichment_positive_vs_zero": 3.0439587705005424,
+  "glad_new_class_fraction_in_positive_ghsl_cells": 0.41937055973099047,
+  "raw_ghsl_negative_change_cells": 0
+}

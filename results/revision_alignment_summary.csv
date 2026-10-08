@@ -1,0 +1,5 @@
+scenario,paired_city_count,spearman_vs_baseline,median_absolute_delta_m,max_absolute_delta_m,median_signed_delta_m,top10_overlap_count,top10_overlap_fraction,data_available
+ghsl_only,91,0.999311166523,0.00180509672167,0.028148422337,0.000600702834736,10,1,published city-level average summary; cell-level alternate-average analyses cannot be reconstructed from nearest-only cell tables
+endpoint_supported,91,0.998490775007,0.00211327770779,0.0654159138219,0.000292544384782,9,0.9,published city-level average summary; cell-level alternate-average analyses cannot be reconstructed from nearest-only cell tables
+preexisting_detected_screened,91,0.999327093324,0.00188720440978,0.0313730974415,0.000532394567572,10,1,published city-level average summary; cell-level alternate-average analyses cannot be reconstructed from nearest-only cell tables
+joint_supported_screened,91,0.997877524816,0.00235973661795,0.0781404783368,0.000480093424856,9,0.9,published city-level average summary; cell-level alternate-average analyses cannot be reconstructed from nearest-only cell tables

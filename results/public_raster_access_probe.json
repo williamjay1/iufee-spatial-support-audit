@@ -1,0 +1,155 @@
+[
+  {
+    "name": "GLAD_v2_2015",
+    "url": "https://storage.googleapis.com/earthenginepartners-hansen/GLCLU2000-2020/v2/2015/30N_090E.tif",
+    "point_lon_lat": [
+      91.75,
+      26.15
+    ],
+    "status": "success",
+    "crs": "EPSG:4326",
+    "transform": [
+      0.00025,
+      0.0,
+      90.0,
+      0.0,
+      -0.00025,
+      30.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 40000,
+    "height": 40000,
+    "block_shapes": [
+      [
+        1,
+        40000
+      ]
+    ],
+    "image_structure": {
+      "COMPRESSION": "LZW",
+      "INTERLEAVE": "BAND"
+    },
+    "native_value_counts": {
+      "24": 44,
+      "25": 3,
+      "26": 4,
+      "27": 25,
+      "28": 16,
+      "29": 8,
+      "30": 13,
+      "31": 5,
+      "32": 7,
+      "33": 5,
+      "34": 7,
+      "35": 8,
+      "37": 3,
+      "244": 3,
+      "250": 873
+    },
+    "sample_shape": [
+      32,
+      32
+    ],
+    "elapsed_seconds": 3.678
+  },
+  {
+    "name": "GLAD_v2_2020",
+    "url": "https://storage.googleapis.com/earthenginepartners-hansen/GLCLU2000-2020/v2/2020/30N_090E.tif",
+    "point_lon_lat": [
+      91.75,
+      26.15
+    ],
+    "status": "success",
+    "crs": "EPSG:4326",
+    "transform": [
+      0.00025,
+      0.0,
+      90.0,
+      0.0,
+      -0.00025,
+      30.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 40000,
+    "height": 40000,
+    "block_shapes": [
+      [
+        1,
+        40000
+      ]
+    ],
+    "image_structure": {
+      "COMPRESSION": "LZW",
+      "INTERLEAVE": "BAND"
+    },
+    "native_value_counts": {
+      "24": 40,
+      "27": 13,
+      "28": 33,
+      "29": 8,
+      "30": 14,
+      "31": 4,
+      "32": 8,
+      "33": 5,
+      "34": 10,
+      "35": 5,
+      "36": 2,
+      "38": 1,
+      "39": 1,
+      "244": 4,
+      "250": 876
+    },
+    "sample_shape": [
+      32,
+      32
+    ],
+    "elapsed_seconds": 3.687
+  },
+  {
+    "name": "IO_2020",
+    "url": "https://s3.us-west-2.amazonaws.com/io-10m-annual-lulc/46R_2020.tif",
+    "point_lon_lat": [
+      91.75,
+      26.15
+    ],
+    "status": "success",
+    "crs": "EPSG:32646",
+    "transform": [
+      10.0,
+      0.0,
+      194780.0,
+      0.0,
+      -10.0,
+      3544360.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 61044,
+    "height": 89013,
+    "block_shapes": [
+      [
+        256,
+        256
+      ]
+    ],
+    "image_structure": {
+      "LAYOUT": "COG",
+      "COMPRESSION": "LZW",
+      "INTERLEAVE": "BAND"
+    },
+    "native_value_counts": {
+      "2": 280,
+      "7": 744
+    },
+    "sample_shape": [
+      32,
+      32
+    ],
+    "elapsed_seconds": 2.941
+  }
+]

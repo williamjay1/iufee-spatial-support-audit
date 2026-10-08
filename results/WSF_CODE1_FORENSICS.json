@@ -1,0 +1,899 @@
+{
+  "completed_utc": "2026-10-04T17:07:54.788432+00:00",
+  "selection": "highest old-audit native code1 count plus the original first inspected 70_22 tile",
+  "source_audit": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\derived\\iufee_v1\\source_plan\\wsf_source_semantic_audit.csv",
+  "source_audit_sha256": "6CED5928233ECE02633262F8F927FFF7DB65C98F5AAA552C3D261A42054A0EFE",
+  "tiles_checked": 2,
+  "native_counting": "full native block scan, no reprojection or resampling",
+  "sample_total": 5000,
+  "no_raw_copies_or_modifications": true,
+  "prior_audit_confirmed": true,
+  "results": [
+    {
+      "item_id": "WSF2019_v1_78_16",
+      "source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_16.tif",
+      "source_size_bytes": 8448098,
+      "source_sha256": "9CBDCC796A8CFE95077FE276D8FFA38F2A2DDA033992D318E251FE2547DB6F57",
+      "old_audit_sha256": "9CBDCC796A8CFE95077FE276D8FFA38F2A2DDA033992D318E251FE2547DB6F57",
+      "sha256_matches_old_audit": true,
+      "native_shape": [
+        22488,
+        22488
+      ],
+      "native_dtype": "uint8",
+      "native_crs": "EPSG:4326",
+      "native_transform": [
+        8.983152841195215e-05,
+        0.0,
+        77.98993633668861,
+        0.0,
+        -8.983152841195215e-05,
+        18.01005363672705,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "native_nodata": null,
+      "color_interpretation": [
+        "gray"
+      ],
+      "color_table": {
+        "present": false,
+        "error": "NULL color table"
+      },
+      "mask_flags": [
+        [
+          "all_valid"
+        ]
+      ],
+      "tags_by_namespace": {
+        "IMAGE_STRUCTURE": {
+          "LAYOUT": "COG",
+          "COMPRESSION": "LZW",
+          "INTERLEAVE": "BAND"
+        },
+        "DERIVED_SUBDATASETS": {
+          "DERIVED_SUBDATASET_1_NAME": "DERIVED_SUBDATASET:LOGAMPLITUDE:E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_16.tif",
+          "DERIVED_SUBDATASET_1_DESC": "log10 of amplitude of input bands from E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_16.tif"
+        },
+        "default": {
+          "AREA_OR_POINT": "Area"
+        }
+      },
+      "overviews": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "coarsest_overview_check": {
+        "requested_factor": 32,
+        "out_shape": [
+          703,
+          703
+        ],
+        "values": {
+          "0": 484635,
+          "1": 21,
+          "255": 9553
+        },
+        "note": "Nearest read at existing coarsest overview scale; not a substitute for the native scan"
+      },
+      "metadata_note": "DERIVED_SUBDATASETS is a GDAL-advertised virtual derived view and is not evidence of original WSF generation provenance",
+      "native_counts": {
+        "0": 495936992,
+        "1": 21178,
+        "255": 9751974
+      },
+      "old_audit_counts": {
+        "0": 495936992,
+        "1": 21178,
+        "255": 9751974
+      },
+      "native_counts_match_old_audit": true,
+      "code1_count_native": 21178,
+      "code1_pixel_fraction": 4.1877744101569775e-05,
+      "code1_native_row_min": 212,
+      "code1_native_row_max": 22076,
+      "code1_native_column_min": 0,
+      "code1_native_column_max": 22160,
+      "code1_pixels_within_tile_edge": {
+        "0": 1,
+        "1": 1,
+        "5": 1,
+        "10": 1,
+        "100": 1
+      },
+      "code1_pixels_within_native_block_edge": {
+        "0": 189,
+        "1": 361,
+        "2": 513,
+        "5": 1062
+      },
+      "total_native_blocks": 1936,
+      "native_blocks_containing_code1": 450,
+      "top_native_blocks_by_code1": [
+        {
+          "block_row": 9,
+          "block_col": 7,
+          "code1_count": 638
+        },
+        {
+          "block_row": 10,
+          "block_col": 15,
+          "code1_count": 517
+        },
+        {
+          "block_row": 9,
+          "block_col": 4,
+          "code1_count": 475
+        },
+        {
+          "block_row": 14,
+          "block_col": 15,
+          "code1_count": 464
+        },
+        {
+          "block_row": 5,
+          "block_col": 10,
+          "code1_count": 444
+        },
+        {
+          "block_row": 16,
+          "block_col": 9,
+          "code1_count": 389
+        },
+        {
+          "block_row": 7,
+          "block_col": 13,
+          "code1_count": 381
+        },
+        {
+          "block_row": 16,
+          "block_col": 10,
+          "code1_count": 368
+        },
+        {
+          "block_row": 8,
+          "block_col": 10,
+          "code1_count": 351
+        },
+        {
+          "block_row": 9,
+          "block_col": 11,
+          "code1_count": 327
+        },
+        {
+          "block_row": 9,
+          "block_col": 10,
+          "code1_count": 324
+        },
+        {
+          "block_row": 8,
+          "block_col": 12,
+          "code1_count": 319
+        },
+        {
+          "block_row": 11,
+          "block_col": 21,
+          "code1_count": 303
+        },
+        {
+          "block_row": 13,
+          "block_col": 7,
+          "code1_count": 284
+        },
+        {
+          "block_row": 8,
+          "block_col": 11,
+          "code1_count": 276
+        },
+        {
+          "block_row": 11,
+          "block_col": 8,
+          "code1_count": 272
+        },
+        {
+          "block_row": 7,
+          "block_col": 10,
+          "code1_count": 263
+        },
+        {
+          "block_row": 8,
+          "block_col": 9,
+          "code1_count": 263
+        },
+        {
+          "block_row": 10,
+          "block_col": 14,
+          "code1_count": 260
+        },
+        {
+          "block_row": 12,
+          "block_col": 5,
+          "code1_count": 245
+        }
+      ],
+      "neighbour_sample_count": 3500,
+      "sample_selection": "fixed-seed simple random without replacement from all native code1 positions",
+      "sample_code1_center_value_counts": {
+        "1": 3500
+      },
+      "sample_mask_counts": {
+        "255": 3500
+      },
+      "neighbour_counts": {
+        "0": 10750,
+        "1": 11329,
+        "255": 5921
+      },
+      "neighbour_total": 28000,
+      "neighbour_fractions": {
+        "0": 0.38392857142857145,
+        "1": 0.40460714285714283,
+        "255": 0.21146428571428572
+      },
+      "neighbourhood_case_counts": {
+        "any_255": 2238,
+        "any_0": 2893,
+        "any_1": 3158,
+        "all_0": 83,
+        "all_255": 12
+      },
+      "examples": [
+        {
+          "native_row": 5811,
+          "native_column": 8382,
+          "lon": 78.7429491236018,
+          "lat": 17.48799770936099,
+          "mask": 255,
+          "neighbours": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "native_row": 5659,
+          "native_column": 8294,
+          "lon": 78.73504394910155,
+          "lat": 17.501652101679607,
+          "mask": 255,
+          "neighbours": [
+            0,
+            1,
+            255,
+            0,
+            255,
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 5812,
+          "native_column": 8382,
+          "lon": 78.7429491236018,
+          "lat": 17.48790787783258,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            255,
+            255,
+            0
+          ]
+        },
+        {
+          "native_row": 5821,
+          "native_column": 8392,
+          "lon": 78.74384743888592,
+          "lat": 17.48709939407687,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "native_row": 5816,
+          "native_column": 8385,
+          "lon": 78.74321861818704,
+          "lat": 17.48754855171893,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            0,
+            1,
+            255,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "native_row": 5826,
+          "native_column": 8389,
+          "lon": 78.74357794430068,
+          "lat": 17.486650236434812,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "native_row": 5888,
+          "native_column": 8390,
+          "lon": 78.7436677758291,
+          "lat": 17.48108068167327,
+          "mask": 255,
+          "neighbours": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "native_row": 5962,
+          "native_column": 8389,
+          "lon": 78.74357794430068,
+          "lat": 17.474433148570785,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "native_row": 5965,
+          "native_column": 8452,
+          "lon": 78.74923733059065,
+          "lat": 17.47416365398555,
+          "mask": 255,
+          "neighbours": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "native_row": 5825,
+          "native_column": 8389,
+          "lon": 78.74357794430068,
+          "lat": 17.486740067963222,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "native_row": 5645,
+          "native_column": 8331,
+          "lon": 78.7383677156528,
+          "lat": 17.502909743077375,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            255,
+            1,
+            1
+          ]
+        },
+        {
+          "native_row": 5825,
+          "native_column": 8387,
+          "lon": 78.74339828124387,
+          "lat": 17.486740067963222,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "elapsed_seconds": 2.572
+    },
+    {
+      "item_id": "WSF2019_v1_70_22",
+      "source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_70_22.tif",
+      "source_size_bytes": 5775351,
+      "source_sha256": "2C41961FD3E31C51F9B14E24B7E98B8F5C61BCB211660FFBE3BD6D26845D35AF",
+      "old_audit_sha256": "2C41961FD3E31C51F9B14E24B7E98B8F5C61BCB211660FFBE3BD6D26845D35AF",
+      "sha256_matches_old_audit": true,
+      "native_shape": [
+        22488,
+        22487
+      ],
+      "native_dtype": "uint8",
+      "native_crs": "EPSG:4326",
+      "native_transform": [
+        8.983152841195215e-05,
+        0.0,
+        69.98998957396222,
+        0.0,
+        -8.983152841195215e-05,
+        24.010081082418157,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "native_nodata": null,
+      "color_interpretation": [
+        "gray"
+      ],
+      "color_table": {
+        "present": false,
+        "error": "NULL color table"
+      },
+      "mask_flags": [
+        [
+          "all_valid"
+        ]
+      ],
+      "tags_by_namespace": {
+        "IMAGE_STRUCTURE": {
+          "LAYOUT": "COG",
+          "COMPRESSION": "LZW",
+          "INTERLEAVE": "BAND"
+        },
+        "DERIVED_SUBDATASETS": {
+          "DERIVED_SUBDATASET_1_NAME": "DERIVED_SUBDATASET:LOGAMPLITUDE:E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_70_22.tif",
+          "DERIVED_SUBDATASET_1_DESC": "log10 of amplitude of input bands from E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_70_22.tif"
+        },
+        "default": {
+          "AREA_OR_POINT": "Area"
+        }
+      },
+      "overviews": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "coarsest_overview_check": {
+        "requested_factor": 32,
+        "out_shape": [
+          703,
+          703
+        ],
+        "values": {
+          "0": 489454,
+          "1": 5,
+          "255": 4750
+        },
+        "note": "Nearest read at existing coarsest overview scale; not a substitute for the native scan"
+      },
+      "metadata_note": "DERIVED_SUBDATASETS is a GDAL-advertised virtual derived view and is not evidence of original WSF generation provenance",
+      "native_counts": {
+        "0": 500721445,
+        "1": 4450,
+        "255": 4961761
+      },
+      "old_audit_counts": {
+        "0": 500721445,
+        "1": 4450,
+        "255": 4961761
+      },
+      "native_counts_match_old_audit": true,
+      "code1_count_native": 4450,
+      "code1_pixel_fraction": 8.799898410017745e-06,
+      "code1_native_row_min": 1117,
+      "code1_native_row_max": 22421,
+      "code1_native_column_min": 6,
+      "code1_native_column_max": 22485,
+      "code1_pixels_within_tile_edge": {
+        "0": 0,
+        "1": 1,
+        "5": 5,
+        "10": 8,
+        "100": 230
+      },
+      "code1_pixels_within_native_block_edge": {
+        "0": 28,
+        "1": 64,
+        "2": 97,
+        "5": 217
+      },
+      "total_native_blocks": 1936,
+      "native_blocks_containing_code1": 245,
+      "top_native_blocks_by_code1": [
+        {
+          "block_row": 27,
+          "block_col": 21,
+          "code1_count": 426
+        },
+        {
+          "block_row": 11,
+          "block_col": 43,
+          "code1_count": 268
+        },
+        {
+          "block_row": 32,
+          "block_col": 32,
+          "code1_count": 226
+        },
+        {
+          "block_row": 25,
+          "block_col": 20,
+          "code1_count": 225
+        },
+        {
+          "block_row": 23,
+          "block_col": 19,
+          "code1_count": 203
+        },
+        {
+          "block_row": 24,
+          "block_col": 20,
+          "code1_count": 200
+        },
+        {
+          "block_row": 42,
+          "block_col": 41,
+          "code1_count": 146
+        },
+        {
+          "block_row": 24,
+          "block_col": 19,
+          "code1_count": 133
+        },
+        {
+          "block_row": 27,
+          "block_col": 20,
+          "code1_count": 110
+        },
+        {
+          "block_row": 25,
+          "block_col": 19,
+          "code1_count": 106
+        },
+        {
+          "block_row": 35,
+          "block_col": 21,
+          "code1_count": 95
+        },
+        {
+          "block_row": 28,
+          "block_col": 21,
+          "code1_count": 87
+        },
+        {
+          "block_row": 16,
+          "block_col": 6,
+          "code1_count": 71
+        },
+        {
+          "block_row": 24,
+          "block_col": 34,
+          "code1_count": 71
+        },
+        {
+          "block_row": 26,
+          "block_col": 19,
+          "code1_count": 63
+        },
+        {
+          "block_row": 41,
+          "block_col": 38,
+          "code1_count": 50
+        },
+        {
+          "block_row": 31,
+          "block_col": 26,
+          "code1_count": 45
+        },
+        {
+          "block_row": 22,
+          "block_col": 19,
+          "code1_count": 44
+        },
+        {
+          "block_row": 34,
+          "block_col": 19,
+          "code1_count": 42
+        },
+        {
+          "block_row": 23,
+          "block_col": 0,
+          "code1_count": 41
+        }
+      ],
+      "neighbour_sample_count": 1500,
+      "sample_selection": "fixed-seed simple random without replacement from all native code1 positions",
+      "sample_code1_center_value_counts": {
+        "1": 1500
+      },
+      "sample_mask_counts": {
+        "255": 1500
+      },
+      "neighbour_counts": {
+        "1": 3439,
+        "255": 3866,
+        "0": 4695
+      },
+      "neighbour_total": 12000,
+      "neighbour_fractions": {
+        "0": 0.39125,
+        "1": 0.28658333333333336,
+        "255": 0.32216666666666666
+      },
+      "neighbourhood_case_counts": {
+        "any_255": 1189,
+        "any_0": 1273,
+        "any_1": 1246,
+        "all_0": 37,
+        "all_255": 16
+      },
+      "examples": [
+        {
+          "native_row": 12309,
+          "native_column": 9687,
+          "lon": 70.86023250545301,
+          "lat": 22.904299883431232,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            1,
+            255,
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 12307,
+          "native_column": 9677,
+          "lon": 70.85933419016888,
+          "lat": 22.904479546488055,
+          "mask": 255,
+          "neighbours": [
+            255,
+            0,
+            0,
+            1,
+            1,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 12308,
+          "native_column": 9683,
+          "lon": 70.85987317933936,
+          "lat": 22.904389714959645,
+          "mask": 255,
+          "neighbours": [
+            1,
+            1,
+            255,
+            1,
+            1,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 12307,
+          "native_column": 9678,
+          "lon": 70.8594240216973,
+          "lat": 22.904479546488055,
+          "mask": 255,
+          "neighbours": [
+            0,
+            0,
+            0,
+            1,
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 12308,
+          "native_column": 9691,
+          "lon": 70.86059183156665,
+          "lat": 22.904389714959645,
+          "mask": 255,
+          "neighbours": [
+            255,
+            255,
+            255,
+            1,
+            0,
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "native_row": 12402,
+          "native_column": 9727,
+          "lon": 70.86382576658949,
+          "lat": 22.89594555128892,
+          "mask": 255,
+          "neighbours": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            255
+          ]
+        },
+        {
+          "native_row": 12307,
+          "native_column": 9671,
+          "lon": 70.85879520099841,
+          "lat": 22.904479546488055,
+          "mask": 255,
+          "neighbours": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 12307,
+          "native_column": 9682,
+          "lon": 70.85978334781095,
+          "lat": 22.904479546488055,
+          "mask": 255,
+          "neighbours": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            255,
+            1,
+            1
+          ]
+        },
+        {
+          "native_row": 12307,
+          "native_column": 9672,
+          "lon": 70.85888503252683,
+          "lat": 22.904479546488055,
+          "mask": 255,
+          "neighbours": [
+            0,
+            0,
+            255,
+            1,
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 12308,
+          "native_column": 9688,
+          "lon": 70.86032233698141,
+          "lat": 22.904389714959645,
+          "mask": 255,
+          "neighbours": [
+            255,
+            255,
+            1,
+            1,
+            255,
+            1,
+            255,
+            255
+          ]
+        },
+        {
+          "native_row": 12305,
+          "native_column": 9668,
+          "lon": 70.85852570641318,
+          "lat": 22.90465920954488,
+          "mask": 255,
+          "neighbours": [
+            255,
+            255,
+            255,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "native_row": 12308,
+          "native_column": 9685,
+          "lon": 70.86005284239619,
+          "lat": 22.904389714959645,
+          "mask": 255,
+          "neighbours": [
+            255,
+            255,
+            255,
+            1,
+            1,
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "elapsed_seconds": 2.792
+    }
+  ],
+  "interpretation": {
+    "established": "Value 1 is present in native source pixels, so it is not solely a downstream overview/display/resampling artifact. Source TIFF masks treat the sampled value-1 pixels as valid; nodata=None does not exclude them. SHA256 and complete native histograms are checked against the prior source audit.",
+    "not_established": "No TIFF metadata, mask, palette or local neighbourhood pattern identifies the true semantic class or the source-generation mechanism of code 1. Validity in a raster mask is not semantic validity.",
+    "recommended_handling": "Retain code 1 as undocumented; exclude it from documented-class support and disclose uncertainty. Do not recode it to settlement or non-settlement based on this inspection."
+  },
+  "elapsed_seconds": 5.451
+}

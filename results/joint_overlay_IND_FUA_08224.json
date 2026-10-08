@@ -1,0 +1,173 @@
+{
+  "unit_key": "IND_FUA_08224",
+  "eFUA_name": "Bareilly",
+  "version": "joint_overlay_10m_nearest_lexicographic_first_valid_v3_fresh_identity",
+  "positive_cells": 5144,
+  "ghsl_added_surface_m2": 2886159.0,
+  "target_bbox_100m_cells": 89600,
+  "fine_grid_pixels": 8960000,
+  "ghsl_valid_100m_cells": 29400,
+  "ghsl_valid_fine_grid_pixels": 2940000,
+  "paired_coverage_minimum_fua": 1.0,
+  "missing_source_fua_cells": 0,
+  "bound_max_violation": 5.960464477539063e-08,
+  "class_partition_max_error": 0.0,
+  "independent_2019_class_partition_max_error": 0.0,
+  "independent_evolution_class_partition_max_error": 0.0,
+  "source_overlap_statistics": {
+    "WSF_2019": {
+      "overlap_fine_pixel_events": 0,
+      "value_conflict_fine_pixel_events": 0,
+      "fua_overlap_fine_pixel_events": 0,
+      "fua_value_conflict_fine_pixel_events": 0,
+      "fua_binary_class_conflict_fine_pixel_events": 0
+    },
+    "WSF_Evolution": {
+      "overlap_fine_pixel_events": 0,
+      "value_conflict_fine_pixel_events": 0,
+      "fua_overlap_fine_pixel_events": 0,
+      "fua_value_conflict_fine_pixel_events": 0,
+      "fua_binary_class_conflict_fine_pixel_events": 0
+    }
+  },
+  "source_records": {
+    "WSF_2019": [
+      {
+        "path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_78_28_refetch_20261005_1791134842034922600.tif",
+        "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_28.tif",
+        "recovery_record": {
+          "item_id": "WSF2019_v1_78_28",
+          "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_2019\\WSF2019_v1_78_28.tif",
+          "original_current_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+          "old_audit_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+          "recovered_path": "F:\\AcademicData\\IUFEE_revision_20261005\\raw\\WSF_source_recovery_20261005\\WSF2019_v1_78_28_refetch_20261005_1791134842034922600.tif",
+          "recovered_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+          "recovered_sha256_matches_old_audit": true,
+          "recovered_bytes": 8825497,
+          "source_url": "https://download.geoservice.dlr.de/WSF2019/files/WSF2019_v1_78_28.tif",
+          "http_headers": {
+            "etag": "\"62fb8e57-86aa99\"",
+            "last-modified": "Tue, 16 Aug 2022 12:32:23 GMT",
+            "content-length": "8825497",
+            "content-type": "image/tiff"
+          },
+          "retrieved_utc": "2026-10-04T17:27:26.460785+00:00",
+          "collection_license": "CC-BY-4.0",
+          "original_preserved": true,
+          "recovered_file_readonly": true
+        },
+        "item_id": "WSF2019_v1_78_28",
+        "bounds": [
+          77.98993633668861,
+          27.989977117181287,
+          80.01006774761659,
+          30.010018696580854
+        ],
+        "crs": "EPSG:4326",
+        "shape": [
+          22487,
+          22488
+        ],
+        "nodata": null,
+        "dtype": "uint8",
+        "transform": [
+          8.983152841195215e-05,
+          0.0,
+          77.98993633668861,
+          0.0,
+          -8.983152841195215e-05,
+          30.010018696580854,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "prior_source_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+        "source_sha256": "B15852D110A033C926F09E74A0ED012FCBD21CF71F25E03D0380D25B0499D3EA",
+        "sha256_matches_prior_audit": true,
+        "source_stat_at_initial_hash": {
+          "bytes": 8825497,
+          "mtime_ns": 1791134846367407400,
+          "ctime_ns": 1791134843595922100
+        }
+      }
+    ],
+    "WSF_Evolution": [
+      {
+        "path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_28.tif",
+        "original_source_path": "E:\\science\\India_Flood_Remote_Sensing_IEEE\\data\\raw\\wsf_evidence\\WSF_Evolution\\WSFevolution_v1_78_28.tif",
+        "recovery_record": null,
+        "item_id": "WSFevolution_v1_78_28",
+        "bounds": [
+          77.98984650516022,
+          27.98997711718129,
+          80.01024741067343,
+          30.01010852810927
+        ],
+        "crs": "EPSG:4326",
+        "shape": [
+          7496,
+          7497
+        ],
+        "nodata": null,
+        "dtype": "int32",
+        "transform": [
+          0.00026949458523585647,
+          0.0,
+          77.98984650516022,
+          0.0,
+          -0.00026949458523585647,
+          30.01010852810927,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "prior_source_sha256": "E25E09DD25542CFD98C07D50E7148794234B370F1633A4F288509FFD93588FC0",
+        "source_sha256": "E25E09DD25542CFD98C07D50E7148794234B370F1633A4F288509FFD93588FC0",
+        "sha256_matches_prior_audit": true,
+        "source_stat_at_initial_hash": {
+          "bytes": 3268592,
+          "mtime_ns": 1786606919385756600,
+          "ctime_ns": 1786606918750708600
+        }
+      }
+    ]
+  },
+  "joint_overlay_allocated_surface_m2": 816243.8209214509,
+  "joint_overlay_depth_weighted_proxy_m3": 65562.52226639236,
+  "fine_product_allocated_surface_m2": 845941.0888322543,
+  "fine_product_depth_weighted_proxy_m3": 67490.21348991868,
+  "archived_product_allocated_surface_m2": 868752.8152906679,
+  "archived_product_depth_weighted_proxy_m3": 68453.4138513344,
+  "joint_vs_fine_product_signed_surface_difference_m2": -29697.267910803384,
+  "joint_vs_fine_product_absolute_cell_surface_difference_m2": 49688.464211826344,
+  "joint_vs_fine_product_signed_depth_proxy_difference_m3": -1927.6912235263003,
+  "joint_vs_fine_product_absolute_cell_depth_proxy_difference_m3": 2766.110844158101,
+  "joint_vs_fine_product_max_cell_fraction_difference": 0.20050000619888309,
+  "fine_vs_archived_product_signed_surface_difference_m2": -22811.72645841376,
+  "fine_vs_archived_product_absolute_cell_surface_difference_m2": 136309.26798366688,
+  "fine_vs_archived_product_signed_depth_proxy_difference_m3": -963.2003614157259,
+  "fine_vs_archived_product_absolute_cell_depth_proxy_difference_m3": 12535.62913751051,
+  "fine_vs_archived_product_max_cell_fraction_difference": 0.31018942141624883,
+  "fine_minus_archived_s_g_weighted_mean": -0.00822758172956167,
+  "fine_vs_archived_s_g_weighted_mae": 0.050663110942651406,
+  "fine_vs_archived_s_cell_max_absolute_difference": 0.23632127046585083,
+  "fine_minus_archived_p_g_weighted_mean": 0.0030470111124198335,
+  "fine_vs_archived_p_g_weighted_mae": 0.02978811031546936,
+  "fine_vs_archived_p_cell_max_absolute_difference": 0.2950282394886017,
+  "fine_minus_archived_u_g_weighted_mean": 0.0,
+  "fine_vs_archived_u_g_weighted_mae": 0.0,
+  "fine_vs_archived_u_cell_max_absolute_difference": 0.0,
+  "fine_lower_allocated_surface_m2": 712805.730867736,
+  "fine_upper_allocated_surface_m2": 963175.2100633997,
+  "fine_lower_depth_weighted_proxy_m3": 60117.44582932904,
+  "fine_upper_depth_weighted_proxy_m3": 73725.06772187258,
+  "completed_utc": "2026-10-04T17:42:23.670639+00:00",
+  "elapsed_seconds": 0.972,
+  "raster_path": "D:\\MLWork\\IUFEE_revision_20261005\\datasets\\joint_overlay\\IND_FUA_08224_t_s_p_u_coverage_100m.tif",
+  "joint_overlay_normalized_city_depth_m": 0.08032222797396417,
+  "fine_product_normalized_city_depth_m": 0.07978122162511678,
+  "archived_product_normalized_city_depth_m": 0.07879504117454998,
+  "joint_overlay_city_depth_rank": 51,
+  "fine_product_city_depth_rank": 51,
+  "archived_product_city_depth_rank": 51
+}
